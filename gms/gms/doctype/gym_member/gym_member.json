@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:full_name",
+ "creation": "2023-04-20 17:13:59.391258",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "gender",
+  "age",
+  "column_break_eqqzp",
+  "full_name",
+  "last_name",
+  "wiegth",
+  "height",
+  "details_tab",
+  "address",
+  "column_break_swvzp",
+  "email",
+  "phone"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_eqqzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Age",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wiegth",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Wiegth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_swvzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "default": "+91-",
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Height",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-20 17:25:54.566121",
+ "modified_by": "Administrator",
+ "module": "Gms",
+ "name": "Gym Member",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
