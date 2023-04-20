@@ -1,20 +1,20 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2023-04-20 17:13:59.391258",
+ "autoname": "field:full_name",
+ "creation": "2023-04-20 17:44:32.144007",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "salutation",
   "first_name",
   "gender",
   "age",
   "column_break_eqqzp",
   "full_name",
   "last_name",
-  "wiegth",
-  "height",
   "details_tab",
   "address",
   "column_break_swvzp",
@@ -27,6 +27,13 @@
   "relationship"
  ],
  "fields": [
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "label": "Salutation",
+   "options": "Salutation",
+   "reqd": 1
+  },
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
@@ -43,16 +50,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "column_break_eqqzp",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "last_name",
-   "fieldtype": "Data",
-   "label": "Last Name",
-   "reqd": 1
-  },
-  {
    "fieldname": "age",
    "fieldtype": "Int",
    "in_list_view": 1,
@@ -61,11 +58,20 @@
    "reqd": 1
   },
   {
-   "fieldname": "wiegth",
+   "fieldname": "column_break_eqqzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Wiegth",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
    "reqd": 1
   },
   {
@@ -102,21 +108,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "full_name",
-   "fieldtype": "Data",
-   "label": "Full Name",
-   "read_only": 1,
-   "unique": 1
-  },
-  {
-   "fieldname": "height",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Height",
-   "reqd": 1
-  },
-  {
    "fieldname": "emergency_contact_information_tab",
    "fieldtype": "Tab Break",
    "label": "Emergency Contact Information"
@@ -148,11 +139,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-20 18:01:22.208909",
+ "modified": "2023-04-20 17:44:32.144007",
  "modified_by": "Administrator",
  "module": "Gms",
- "name": "Gym Member",
- "naming_rule": "By script",
+ "name": "Gym Trainer",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
