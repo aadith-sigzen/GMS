@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:gym_workout_plan",
+ "creation": "2023-04-20 18:42:07.301572",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_workout_plan",
+  "exercise_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_workout_plan",
+   "fieldtype": "Data",
+   "label": "Gym Workout Plan",
+   "unique": 1
+  },
+  {
+   "fieldname": "exercise_section",
+   "fieldtype": "Section Break",
+   "label": "Exercise"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-20 18:42:45.467942",
+ "modified_by": "Administrator",
+ "module": "Gms",
+ "name": "Gym Workout Plan",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
