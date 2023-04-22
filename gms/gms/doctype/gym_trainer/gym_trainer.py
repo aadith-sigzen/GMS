@@ -9,9 +9,9 @@ class GymTrainer(Document):
 	def get_feed(self):
 		return self.full_name
 	def autoname(self):
-		full_name = self.salutation +' '+ self.first_name + ' ' + self.last_name
+		full_name = self.salutation + ' ' + self.first_name + ' ' + self.last_name
 		self.full_name = full_name
 		self.name = full_name
 	def validate(self):
-		full_name = self.salutation +' '+ self.first_name + ' ' + self.last_name
+		full_name = self.salutation + ' ' + self.first_name + ' ' + self.last_name
 		self.full_name = full_name
