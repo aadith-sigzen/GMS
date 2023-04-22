@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-04-22 18:01:22.243811",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "gym_member",
+  "gym_subscription",
+  "column_break_cshba",
+  "durnation",
+  "rate",
+  "details_tab",
+  "from_date",
+  "total_amount",
+  "column_break_ulyib",
+  "to_date",
+  "paid",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gym Member",
+   "options": "Gym Member",
+   "reqd": 1
+  },
+  {
+   "fieldname": "durnation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Durnation",
+   "options": "\nMonthly\nQuarterly\nYearly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Membership",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cshba",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gym_subscription",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gym Subscription",
+   "options": "Gym Subscription",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "gym_subscription.rate",
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ulyib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "paid",
+   "fieldtype": "Select",
+   "label": "Paid "
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "naming_series",
+   "options": "GYM-.{gym_member}.-.{gym_subscription}.-"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-04-22 18:08:41.013953",
+ "modified_by": "Administrator",
+ "module": "Gms",
+ "name": "Gym Membership",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

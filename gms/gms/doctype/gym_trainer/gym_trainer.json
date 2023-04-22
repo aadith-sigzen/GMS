@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:full_name",
+ "autoname": "naming_series:",
  "creation": "2023-04-20 17:44:32.144007",
  "default_view": "List",
  "doctype": "DocType",
@@ -9,12 +9,14 @@
  "engine": "InnoDB",
  "field_order": [
   "salutation",
+  "naming_series",
   "first_name",
   "gender",
   "age",
   "column_break_eqqzp",
   "full_name",
   "last_name",
+  "dob",
   "details_tab",
   "address",
   "column_break_swvzp",
@@ -135,15 +137,25 @@
    "label": "Relationship",
    "options": "Spouse\nSibling\nParent\nFriend",
    "reqd": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Naming Series"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-20 17:44:32.144007",
+ "modified": "2023-04-22 17:36:35.207450",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
- "naming_rule": "By fieldname",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

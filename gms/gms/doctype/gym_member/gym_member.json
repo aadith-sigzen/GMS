@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-04-20 17:13:59.391258",
  "default_view": "List",
  "doctype": "DocType",
@@ -9,8 +10,10 @@
  "field_order": [
   "first_name",
   "gender",
+  "dob",
   "age",
   "column_break_eqqzp",
+  "naming_series",
   "full_name",
   "last_name",
   "wiegth",
@@ -144,15 +147,29 @@
    "label": "Relationship",
    "options": "Spouse\nSibling\nParent\nFriend",
    "reqd": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB",
+   "reqd": 1
+  },
+  {
+   "default": "GYM-.{first_name}.{last_name}.-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "GYM-.{first_name}.{last_name}.-.YYYY.-"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-20 18:01:22.208909",
+ "modified": "2023-04-22 17:36:09.464850",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
- "naming_rule": "By script",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
