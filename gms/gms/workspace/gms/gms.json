@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"GMS\"}}]",
+ "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"AAudtJZvjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Exercise Type\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"dpfHahI1fj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Subscription\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}}]",
  "creation": "2023-04-24 16:02:31.803180",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -11,7 +11,7 @@
  "is_hidden": 0,
  "label": "GMS",
  "links": [],
- "modified": "2023-04-24 16:03:07.936381",
+ "modified": "2023-04-24 17:11:06.377377",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "GMS",
@@ -23,13 +23,55 @@
  "roles": [
   {
    "role": "Gym Member"
+  },
+  {
+   "role": "Gym Admin"
+  },
+  {
+   "role": "Gym Trainer"
   }
  ],
  "sequence_id": 31.0,
  "shortcuts": [
   {
+   "color": "Grey",
    "doc_view": "List",
-   "label": "GYM Member",
+   "label": "Gym Membership",
+   "link_to": "Gym Membership",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Exercise Type",
+   "link_to": "Exercise Type",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Workout Plan",
+   "link_to": "Gym Workout Plan",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Gym Trainer",
+   "link_to": "Gym Trainer",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Subscription",
+   "link_to": "Gym Subscription",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Member",
    "link_to": "Gym Member",
    "type": "DocType"
   }

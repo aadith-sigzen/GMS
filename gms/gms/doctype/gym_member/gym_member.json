@@ -203,7 +203,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 15:58:20.693166",
+ "modified": "2023-04-24 17:08:56.328778",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
@@ -229,6 +229,19 @@
    "read": 1,
    "report": 1,
    "role": "Gym Member",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
    "select": 1,
    "share": 1,
    "write": 1
