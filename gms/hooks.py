@@ -134,7 +134,7 @@ permission_query_conditions = {
 # Testing
 # -------
 fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer","Gym Admin"]]]},
-            {"dt":"Role Profile","filters":[["name","in",["Gym Menber"]]]}]
+            {"dt":"Role Profile","filters":[["name","in",["Gym Menber","Gym Trainer"]]]}]
 
 # before_tests = "gms.install.before_tests"
 

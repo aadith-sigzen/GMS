@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "naming_series:",
  "creation": "2023-04-20 17:44:32.144007",
  "default_view": "List",
  "doctype": "DocType",
@@ -9,7 +8,6 @@
  "engine": "InnoDB",
  "field_order": [
   "salutation",
-  "naming_series",
   "first_name",
   "gender",
   "age",
@@ -139,11 +137,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "naming_series",
-   "fieldtype": "Data",
-   "label": "Naming Series"
-  },
-  {
    "fieldname": "dob",
    "fieldtype": "Date",
    "label": "DOB"
@@ -151,11 +144,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 17:09:33.356469",
+ "modified": "2023-04-24 17:33:08.923526",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
- "naming_rule": "By \"Naming Series\" field",
+ "naming_rule": "By script",
  "owner": "Administrator",
  "permissions": [
   {
