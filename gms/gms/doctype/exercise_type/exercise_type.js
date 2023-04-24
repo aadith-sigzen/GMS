@@ -6,3 +6,5 @@ frappe.ui.form.on('Exercise Type', {
 
 	// }
 });
+
+

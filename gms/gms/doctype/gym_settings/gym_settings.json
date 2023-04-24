@@ -7,19 +7,32 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "trainer_limt"
+  "trainer_limt",
+  "locker_limt",
+  "date_period"
  ],
  "fields": [
   {
    "fieldname": "trainer_limt",
    "fieldtype": "Int",
    "label": "Trainer Limt"
+  },
+  {
+   "fieldname": "locker_limt",
+   "fieldtype": "Int",
+   "label": "Locker Limt"
+  },
+  {
+   "fieldname": "date_period",
+   "fieldtype": "Int",
+   "label": "Date Period",
+   "length": 30
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-04-24 17:09:10.095466",
+ "modified": "2023-04-24 16:59:01.377452",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Settings",
