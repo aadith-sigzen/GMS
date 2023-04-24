@@ -18,10 +18,16 @@
   "last_name",
   "wiegth",
   "height",
-  "details_tab",
-  "address",
+  "address_details_tab",
+  "address_line1",
+  "address_line2",
   "column_break_swvzp",
+  "city",
+  "state",
+  "country",
+  "contact_details_tab",
   "email",
+  "column_break_mzish",
   "phone",
   "emergency_contact_information_tab",
   "contact_name",
@@ -69,17 +75,6 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Wiegth",
-   "reqd": 1
-  },
-  {
-   "fieldname": "details_tab",
-   "fieldtype": "Tab Break",
-   "label": "Details"
-  },
-  {
-   "fieldname": "address",
-   "fieldtype": "Small Text",
-   "label": "Address",
    "reqd": 1
   },
   {
@@ -161,11 +156,54 @@
    "hidden": 1,
    "label": "Naming Series",
    "options": "GYM-.{first_name}.{last_name}.-.YYYY.-"
+  },
+  {
+   "fieldname": "address_line1",
+   "fieldtype": "Data",
+   "label": "Address Line1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City/Town",
+   "reqd": 1
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State/Province",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "contact_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "address_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Address Details"
+  },
+  {
+   "fieldname": "column_break_mzish",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line2",
+   "fieldtype": "Data",
+   "label": "Address Line2"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-22 17:36:09.464850",
+ "modified": "2023-04-24 15:58:20.693166",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
@@ -181,6 +219,17 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "select": 1,
    "share": 1,
    "write": 1
   }

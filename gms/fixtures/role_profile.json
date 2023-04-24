@@ -1,0 +1,17 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-04-24 14:00:28.766683",
+  "name": "Gym Menber",
+  "role_profile": "Gym Member",
+  "roles": [
+   {
+    "parent": "Gym Menber",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Gym Member"
+   }
+  ]
+ }
+]

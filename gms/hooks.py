@@ -82,9 +82,9 @@ app_license = "MIT"
 # -----------
 # Permissions evaluated in scripted ways
 
-# permission_query_conditions = {
-#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
-# }
+permission_query_conditions = {
+	"Gym Member": "gms.permission_query.permission.get_permission_query_conditions_for_gym_member"
+}
 #
 # has_permission = {
 #	"Event": "frappe.desk.doctype.event.event.has_permission",
@@ -133,6 +133,8 @@ app_license = "MIT"
 
 # Testing
 # -------
+fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer","Gym Admin"]]]},
+            {"dt":"Role Profile","filters":[["name","in",["Gym Menber"]]]}]
 
 # before_tests = "gms.install.before_tests"
 
