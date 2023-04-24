@@ -18,6 +18,8 @@
   "last_name",
   "wiegth",
   "height",
+  "section_break_r4p6p",
+  "review",
   "address_details_tab",
   "address_line1",
   "address_line2",
@@ -199,11 +201,21 @@
    "fieldname": "address_line2",
    "fieldtype": "Data",
    "label": "Address Line2"
+  },
+  {
+   "fieldname": "review",
+   "fieldtype": "Table",
+   "label": "Review",
+   "options": "Trainer Plan"
+  },
+  {
+   "fieldname": "section_break_r4p6p",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 17:08:56.328778",
+ "modified": "2023-04-24 18:56:36.812831",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
@@ -223,26 +235,13 @@
    "write": 1
   },
   {
+   "create": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Gym Member",
-   "select": 1,
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Gym Admin",
-   "select": 1,
    "share": 1,
    "write": 1
   }

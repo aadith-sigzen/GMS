@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{member}-{####}",
+ "creation": "2023-04-24 13:35:19.307815",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "class_type",
+  "select_day",
+  "class_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Full Name",
+   "options": "Gym Member"
+  },
+  {
+   "fieldname": "class_type",
+   "fieldtype": "Select",
+   "label": "Class Type",
+   "options": "\nDance\nBoxing"
+  },
+  {
+   "fieldname": "select_day",
+   "fieldtype": "Select",
+   "label": "Select Day",
+   "options": "\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "class_time",
+   "fieldtype": "Select",
+   "label": "Class Time",
+   "options": "2 PM\n4 PM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-24 17:20:04.278052",
+ "modified_by": "Administrator",
+ "module": "Gms",
+ "name": "Group Class",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
