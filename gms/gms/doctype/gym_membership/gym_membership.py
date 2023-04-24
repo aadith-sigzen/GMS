@@ -7,15 +7,10 @@ from frappe.model.docstatus import DocStatus
 
 
 class GymMembership(Document):
-    def before_save(self):
-        if self.durnation == "Monthly":
-            self.total_amount = self.rate*1
-            self.to_date = frappe.utils.add_days(self.from_date, 30)
-
-        elif self.durnation == "Quarterly":
-            self.total_amount = self.rate*6
-            self.to_date = frappe.utils.add_days(self.from_date, 180)
-
-        else:
-            self.total_amount = self.rate*12
-            self.to_date = frappe.utils.add_days(self.from_date, 365)
+	def before_save(self):
+		if self.durnation == "Monthly":
+			self.total_amount = self.rate*1
+		elif self.durnation == "Quarterly":
+			self.total_amount = self.rate*6
+		else:
+			self.total_amount = self.rate*12
