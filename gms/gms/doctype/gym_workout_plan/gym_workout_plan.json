@@ -10,7 +10,8 @@
  "field_order": [
   "gym_workout_plan",
   "exercise_section",
-  "gym_workout_plan_exercise"
+  "gym_workout_plan_exercise",
+  "rate"
  ],
  "fields": [
   {
@@ -29,11 +30,16 @@
    "fieldtype": "Table",
    "label": "Gym Workout Plan Exercise",
    "options": "Gym Workout Plan Exercise"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Rate"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 17:10:19.737333",
+ "modified": "2023-04-24 16:34:17.561151",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Workout Plan",
