@@ -74,7 +74,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2023-04-24 17:58:24.180868",
+  "modified": "2023-04-25 11:14:36.382878",
   "module": "Gms",
   "name": "beginner-level-workout-plan",
   "page_blocks": [
@@ -94,7 +94,7 @@
     "parenttype": "Web Page",
     "section_id": null,
     "web_template": "Split Section with Image",
-    "web_template_values": "{\"title\":\"BEGINNER LEVEL WORKOUT PLAN\",\"content\":\"The best workout routine for true beginners is rather subjective to what the beginner is comfortable doing and their understanding of how to perform exercises. Their ultimate goal will also play a huge factor as well.Generally speaking though, beginners can start off performing anywhere between 2-4 workouts per week. These workouts can be either full body workouts or upper/lower workouts. The workouts will focus on learning ideal movement patterns of fundamental lifts such as horizontal presses, vertical presses, horizontal pulls, vertical pulls, squats, hip hinges, and loaded carries. \",\"image\":\"/files/strong-brunette-doing-shoulder-press.webp\",\"image_on_right\":0,\"vertical_align\":\"Middle\"}"
+    "web_template_values": "{\"title\":\"BEGINNER LEVEL WORKOUT PLAN\",\"content\":\"The best workout routine for true beginners is rather subjective to what the beginner is comfortable doing and their understanding of how to perform exercises. Their ultimate goal will also play a huge factor as well.Generally speaking though, beginners can start off performing anywhere between 2-4 workouts per week. These workouts can be either full body workouts or upper/lower workouts. The workouts will focus on learning ideal movement patterns of fundamental lifts such as horizontal presses, vertical presses, horizontal pulls, vertical pulls, squats, hip hinges, and loaded carries. \",\"image\":\"/files/tips-for-gym-beginners_759.jpg\",\"image_on_right\":0,\"vertical_align\":\"Middle\"}"
    }
   ],
   "published": 1,
@@ -128,7 +128,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2023-04-24 17:23:37.769583",
+  "modified": "2023-04-25 11:15:50.486151",
   "module": "Gms",
   "name": "intermediate-workout-plan",
   "page_blocks": [
@@ -148,7 +148,7 @@
     "parenttype": "Web Page",
     "section_id": null,
     "web_template": "Split Section with Image",
-    "web_template_values": "{\"title\":\"INTERMEDIATE LEVEL WORKOUT PLAN\",\"content\":\"As with our three-phase beginner\u2019s program (which can also be used for a comeback after a layoff), even though you\u2019re a bit more advanced now, a little downturn can do wonders for recovery. You don\u2019t need to take a full week off from training, but a couple of days off or a week of low to medium intensity training with some extra recovery time should get you fully prepared to move into this program.\",\"image\":\"/files/killing-that-kettlebell-workout-royalty-free-image-637772778-1562688657.jpg\",\"image_on_right\":0,\"vertical_align\":\"Top\"}"
+    "web_template_values": "{\"title\":\"INTERMEDIATE LEVEL WORKOUT PLAN\",\"content\":\"As with our three-phase beginner\u2019s program (which can also be used for a comeback after a layoff), even though you\u2019re a bit more advanced now, a little downturn can do wonders for recovery. You don\u2019t need to take a full week off from training, but a couple of days off or a week of low to medium intensity training with some extra recovery time should get you fully prepared to move into this program.\",\"image\":\"/files/workout-routines-for-women.jpg\",\"image_on_right\":0,\"vertical_align\":\"Top\"}"
    }
   ],
   "published": 1,
@@ -182,7 +182,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2023-04-24 17:28:37.702285",
+  "modified": "2023-04-25 11:15:18.445126",
   "module": "Gms",
   "name": "advance-level-workout-plan",
   "page_blocks": [
@@ -202,7 +202,7 @@
     "parenttype": "Web Page",
     "section_id": null,
     "web_template": "Split Section with Image",
-    "web_template_values": "{\"title\":\"ADVANCE LEVEL WORKOUT PLAN\",\"content\":\"Advanced bodybuilder workout suited to advanced lifters with at least 1 years lifting experience. Are you looking to step your training up a notch and pack on some serious muscle? Then this workout is for you. This advanced bodybuilder workout is designed to destroy each muscle group once a week over 5 days! Monday you will hit shoulders, Tuesday for arms, Wednesday for legs, Thursday for back and Friday for Chest. To look after the mid-section you will be doing 1 abdominal exercise at the end of each daily workout.\",\"image\":\"/files/Young-Muscular-Man-Doing-Lunges-In-Dark-Gym.webp\",\"image_on_right\":0,\"vertical_align\":\"Top\"}"
+    "web_template_values": "{\"title\":\"ADVANCE LEVEL WORKOUT PLAN\",\"content\":\"Advanced bodybuilder workout suited to advanced lifters with at least 1 years lifting experience. Are you looking to step your training up a notch and pack on some serious muscle? Then this workout is for you. This advanced bodybuilder workout is designed to destroy each muscle group once a week over 5 days! Monday you will hit shoulders, Tuesday for arms, Wednesday for legs, Thursday for back and Friday for Chest. To look after the mid-section you will be doing 1 abdominal exercise at the end of each daily workout.\",\"image\":\"/files/strong-brunette-doing-shoulder-press.webp\",\"image_on_right\":0,\"vertical_align\":\"Top\"}"
    }
   ],
   "published": 1,

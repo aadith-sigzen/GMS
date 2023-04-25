@@ -1,0 +1,58 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2023-04-25 11:17:01.434064",
+  "name": "GYM PLANS",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": "BEGINNER LEVEL WORKOUT PLAN",
+    "image": "/files/tips-for-gym-beginners_759.jpg",
+    "parent": "GYM PLANS",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": "/plans/beginners"
+   },
+   {
+    "description": null,
+    "heading": "INTERMEDIATE WORKOUT PLAN",
+    "image": "/files/killing-that-kettlebell-workout-royalty-free-image-637772778-1562688657.jpg",
+    "parent": "GYM PLANS",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": "/plans/intermediate"
+   },
+   {
+    "description": null,
+    "heading": "ADVANCE WORKOUT PLAN",
+    "image": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
+    "parent": "GYM PLANS",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": "/plans/advance"
+   }
+  ],
+  "slideshow_name": "GYM PLANS"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2023-04-24 16:11:08.523155",
+  "name": "BEGINNER LEVEL WORKOUT PLAN",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/strong-brunette-doing-shoulder-press.webp",
+    "parent": "BEGINNER LEVEL WORKOUT PLAN",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "BEGINNER LEVEL WORKOUT PLAN"
+ }
+]
