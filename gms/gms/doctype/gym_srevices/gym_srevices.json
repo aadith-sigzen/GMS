@@ -1,17 +1,26 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2023-04-24 17:14:49.484776",
+ "autoname": "naming_series:",
+ "creation": "2023-04-25 17:23:52.372132",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "gym_member",
   "gym_trainer",
-  "gym_locker"
+  "book_locker"
  ],
  "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "naming_series",
+   "options": "GYM-.{gym_member}"
+  },
   {
    "fieldname": "gym_member",
    "fieldtype": "Link",
@@ -26,18 +35,18 @@
   },
   {
    "default": "0",
-   "fieldname": "gym_locker",
+   "fieldname": "book_locker",
    "fieldtype": "Check",
-   "label": "Gym Locker",
-   "options": "Gym Locker"
+   "label": "Book Locker"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 17:22:40.769575",
+ "modified": "2023-04-25 17:39:38.481322",
  "modified_by": "Administrator",
  "module": "Gms",
- "name": "Gym Services",
+ "name": "Gym Srevices",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
