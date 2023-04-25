@@ -2,6 +2,21 @@
  {
   "docstatus": 0,
   "doctype": "Role Profile",
+  "modified": "2023-04-24 17:34:42.327331",
+  "name": "Gym Trainer",
+  "role_profile": "Gym Trainer",
+  "roles": [
+   {
+    "parent": "Gym Trainer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Gym Trainer"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
   "modified": "2023-04-24 14:00:28.766683",
   "name": "Gym Menber",
   "role_profile": "Gym Member",
