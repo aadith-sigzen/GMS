@@ -2,51 +2,32 @@
  {
   "docstatus": 0,
   "doctype": "Website Slideshow",
-  "header": null,
-  "modified": "2023-04-25 11:59:57.626411",
+  "header": "<div class=\"carousel slide\" data-ride=\"carousel\" id=\"id-51629e77b555\">\n<!-- Indicators -->\n<ol class=\"carousel-indicators\">\n<li class=\"active\" data-slide-to=\"0\" data-target=\"#id-51629e77b555\">\n</li>\n<li class=\"\" data-slide-to=\"1\" data-target=\"#id-51629e77b555\">\n</li>\n<li class=\"\" data-slide-to=\"2\" data-target=\"#id-51629e77b555\">\n</li>\n</ol>\n<!-- Wrapper for slides -->\n<div class=\"carousel-inner\">\n<div class=\"item carousel-item active\">\n<a href=\"/plans/beginners\">\n<img class=\"d-block w-100\" src=\"/assets/gms/img/tips-for-gym-beginners_759.jpg\">\n</a>\n<div class=\"carousel-caption d-none d-md-block\">\n<h4>BEGINNER LEVEL WORKOUT PLAN</h4>\n</div>\n</div>\n<div class=\"item carousel-item\">\n<a href=\"/plans/intermediate\">\n<img class=\"d-block w-100\" src=\"/assets/gms/img/strong-brunette-doing-shoulder-press.webp\">\n</a>\n<div class=\"carousel-caption d-none d-md-block\">\n<h4 style=\"color: blanchedalmond;\">INTERMEDIATE WORKOUT PLAN</h4>\n</div>\n</div>\n<div class=\"item carousel-item\">\n<a href=\"/plans/advance\">\n<img class=\"d-block w-100\" src=\"https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg\">\n</a>\n<div class=\"carousel-caption d-none d-md-block\">\n<h4 style=\"color: blanchedalmond;\">ADVANCE WORKOUT PLAN</h4>\n</div>\n</div>\n</div>\n<!-- Controls -->\n<a class=\"carousel-control-prev\" data-slide=\"prev\" href=\"#id-51629e77b555\" role=\"button\">\n<span class=\"carousel-control-prev-icon\"></span>\n<span class=\"sr-only\">Previous</span>\n</a>\n<a class=\"carousel-control-next\" data-slide=\"next\" href=\"#id-51629e77b555\" role=\"button\">\n<span class=\"carousel-control-next-icon\"></span>\n<span class=\"sr-only\">Next</span>\n</a>\n</div>",
+  "modified": "2023-04-25 12:45:50.067058",
   "name": "GYM PLANS",
-  "slideshow_items": [
-   {
-    "description": null,
-    "heading": "BEGINNER LEVEL WORKOUT PLAN",
-    "image": "/files/tips-for-gym-beginners_759.jpg",
-    "parent": "GYM PLANS",
-    "parentfield": "slideshow_items",
-    "parenttype": "Website Slideshow",
-    "url": "/plans/beginners"
-   },
-   {
-    "description": null,
-    "heading": "INTERMEDIATE WORKOUT PLAN",
-    "image": "/files/workout-routines-for-women.jpg",
-    "parent": "GYM PLANS",
-    "parentfield": "slideshow_items",
-    "parenttype": "Website Slideshow",
-    "url": "/plans/intermediate"
-   },
-   {
-    "description": null,
-    "heading": "ADVANCE WORKOUT PLAN",
-    "image": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
-    "parent": "GYM PLANS",
-    "parentfield": "slideshow_items",
-    "parenttype": "Website Slideshow",
-    "url": "/plans/advance"
-   }
-  ],
+  "slideshow_items": [],
   "slideshow_name": "GYM PLANS"
  },
  {
   "docstatus": 0,
   "doctype": "Website Slideshow",
-  "header": null,
-  "modified": "2023-04-24 16:11:08.523155",
+  "header": "<div class=\"carousel slide\" data-ride=\"carousel\" id=\"id-51629e77b555\">\n<!-- Indicators -->\n<ol class=\"carousel-indicators\">\n<li class=\"active\" data-slide-to=\"0\" data-target=\"#id-51629e77b555\">\n</li>\n<li class=\"\" data-slide-to=\"1\" data-target=\"#id-51629e77b555\">\n</li>\n<li class=\"\" data-slide-to=\"2\" data-target=\"#id-51629e77b555\">\n</li>\n</ol>\n<!-- Wrapper for slides -->\n<div class=\"carousel-inner\">\n<div class=\"item carousel-item active\">\n<a href=\"/plans/beginners\">\n<img class=\"d-block w-100\" src=\"/assets/gms/img/960x0-3-1.jpg\">\n</a>\n</div>\n<div class=\"item carousel-item\">\n<a href=\"/plans/intermediate\">\n<img class=\"d-block w-100\" src=\"/assets/gms/img/tips-for-gym-beginners_759.jpg\">\n</a>\n</div>\n<div class=\"item carousel-item\">\n<a href=\"/plans/advance\">\n<img class=\"d-block w-100\" src=\"https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg\">\n</a>\n</div>\n<!-- Controls -->\n<a class=\"carousel-control-prev\" data-slide=\"prev\" href=\"#id-51629e77b555\" role=\"button\">\n<span class=\"carousel-control-prev-icon\"></span>\n<span class=\"sr-only\">Previous</span>\n</a>\n<a class=\"carousel-control-next\" data-slide=\"next\" href=\"#id-51629e77b555\" role=\"button\">\n<span class=\"carousel-control-next-icon\"></span>\n<span class=\"sr-only\">Next</span>\n</a>\n</div></div>",
+  "modified": "2023-04-25 12:34:48.329883",
   "name": "BEGINNER LEVEL WORKOUT PLAN",
   "slideshow_items": [
    {
     "description": null,
     "heading": null,
-    "image": "/files/strong-brunette-doing-shoulder-press.webp",
+    "image": "/files/man-2604149_1280.jpg",
+    "parent": "BEGINNER LEVEL WORKOUT PLAN",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/man-2604149_1280.jpg",
     "parent": "BEGINNER LEVEL WORKOUT PLAN",
     "parentfield": "slideshow_items",
     "parenttype": "Website Slideshow",
