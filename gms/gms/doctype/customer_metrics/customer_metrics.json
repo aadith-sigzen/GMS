@@ -8,66 +8,58 @@
  "engine": "InnoDB",
  "field_order": [
   "workout_time",
-  "height",
   "weight",
   "steps",
   "calories",
-  "customer_name"
+  "date",
+  "today_date"
  ],
  "fields": [
   {
    "fieldname": "weight",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Weight"
   },
   {
    "fieldname": "steps",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Steps"
   },
   {
    "fieldname": "workout_time",
-   "fieldtype": "Duration",
-   "label": "Workout Time"
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Workout duration (in hrs)"
   },
   {
    "fieldname": "calories",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Calories"
   },
   {
-   "fieldname": "height",
-   "fieldtype": "Int",
-   "label": "Height"
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "date"
   },
   {
-   "fieldname": "customer_name",
-   "fieldtype": "Link",
-   "label": "Customer Name",
-   "options": "Gym Member"
+   "fieldname": "today_date",
+   "fieldtype": "Date",
+   "label": "Today Date"
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2023-04-25 16:28:36.299408",
+ "modified": "2023-04-25 19:38:43.198124",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Customer Metrics",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

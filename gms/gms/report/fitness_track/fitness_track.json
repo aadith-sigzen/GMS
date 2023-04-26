@@ -1,0 +1,37 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-04-25 18:32:56.372562",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-04-25 19:34:04.487261",
+ "modified_by": "Administrator",
+ "module": "Gms",
+ "name": "Fitness track",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Gym Member",
+ "report_name": "Fitness track",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Gym Member"
+  }
+ ]
+}
