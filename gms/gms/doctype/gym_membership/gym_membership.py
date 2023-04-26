@@ -4,13 +4,22 @@
 import frappe
 from frappe.model.document import Document
 from frappe.model.docstatus import DocStatus
+from frappe.utils import date_diff
+from frappe.utils import today
+
 
 
 class GymMembership(Document):
 	def before_save(self):
 		if self.durnation == "Monthly":
 			self.total_amount = self.rate*1
+			self.to_date = frappe.utils.add_days(self.from_date, 30)
 		elif self.durnation == "Quarterly":
 			self.total_amount = self.rate*6
+			self.to_date = frappe.utils.add_days(self.from_date, 180)
 		else:
 			self.total_amount = self.rate*12
+			self.to_date = frappe.utils.add_days(self.from_date, 365)
+
+		self.days = date_diff(self.to_date,today())
+

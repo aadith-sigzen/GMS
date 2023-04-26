@@ -1,0 +1,31 @@
+{% extends "templates/web.html" %}
+
+{%- block title -%}{{_("Not Found")}}{%- endblock -%}
+
+{% block page_content %}
+{% for t in tasks %}
+<div class="card w-75">
+    <div class="card-body">
+      <h5 class="card-title"><b><left-align>Active Plan</left-align></b></h5>
+      <p class="card-text">{{t.gym_workout_plan}}</p>
+      
+    </div>
+    <div>
+      <h5 class="card-title"><b>Remaining Days</b></h5>
+      <p class="card-text">{{t.days}}</p>
+    </div>
+
+    <div>
+        <h5 class="card-title"><b>Trainer</b></h5>
+        <p class="card-text">{{t.gym_trainer}}</p>
+        <p class="card-text">{{t.num}}</p>
+      </div>
+
+      <div>
+        <h5 class="card-title"><b>Member Past Plan</b></h5>
+        <p class="card-text">{{t.plan}}</p>
+      </div>
+  </div>
+  {% endfor %}
+
+{% endblock %}
