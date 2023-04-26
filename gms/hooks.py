@@ -136,14 +136,10 @@ permission_query_conditions = {
 # -------
 fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer","Gym Admin"]]]},
             {"dt":"Role Profile","filters":[["name","in",["Gym Menber","Gym Trainer"]]]},
-<<<<<<< HEAD
-            {"dt":"Web Page"}, {"dt":"Website Slideshow"} ,  {"dt":"Website Settings"} ,{"dt":"Homepage"} ] 
-=======
             {"dt":"Web Page"}, {"dt":"Website Slideshow"} ,  {"dt":"Website Settings"},
-            {"dt": "Gym Workout Plan"}
+            {"dt":"Homepage"},{"dt":"Web Page"}, {"dt":"Website Slideshow"},{"dt":"Website Settings"},
+            {"dt": "Gym Workout Plan"}] 
 
-            ] 
->>>>>>> 5264400 (TO DATE validate)
 
 # before_tests = "gms.install.before_tests"
 
