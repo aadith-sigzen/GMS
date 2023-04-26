@@ -10,12 +10,8 @@
  "field_order": [
   "first_name",
   "gender",
-<<<<<<< Updated upstream
-  "dob",
-=======
   "date_of_birth",
   "age",
->>>>>>> Stashed changes
   "column_break_eqqzp",
   "naming_series",
   "full_name",
@@ -218,11 +214,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< Updated upstream
- "modified": "2023-04-26 12:33:39.298884",
-=======
  "modified": "2023-04-26 13:33:39.012041",
->>>>>>> Stashed changes
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
