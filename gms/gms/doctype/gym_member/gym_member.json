@@ -10,7 +10,12 @@
  "field_order": [
   "first_name",
   "gender",
+<<<<<<< Updated upstream
   "dob",
+=======
+  "date_of_birth",
+  "age",
+>>>>>>> Stashed changes
   "column_break_eqqzp",
   "naming_series",
   "full_name",
@@ -18,6 +23,7 @@
   "wiegth",
   "height",
   "section_break_r4p6p",
+  "health_matrix",
   "review",
   "address_details_tab",
   "address_line1",
@@ -137,12 +143,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "dob",
-   "fieldtype": "Date",
-   "label": "DOB",
-   "reqd": 1
-  },
-  {
    "default": "GYM-.{first_name}.{last_name}.-.YYYY.-",
    "fieldname": "naming_series",
    "fieldtype": "Select",
@@ -202,11 +202,27 @@
   {
    "fieldname": "section_break_r4p6p",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "health_matrix",
+   "fieldtype": "Table",
+   "label": "Health Matrix",
+   "options": "Customer Metrics"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
+<<<<<<< Updated upstream
  "modified": "2023-04-26 12:33:39.298884",
+=======
+ "modified": "2023-04-26 13:33:39.012041",
+>>>>>>> Stashed changes
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
