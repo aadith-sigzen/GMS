@@ -215,7 +215,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 18:56:36.812831",
+ "modified": "2023-04-26 12:33:39.298884",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
@@ -235,7 +235,6 @@
    "write": 1
   },
   {
-   "create": 1,
    "email": 1,
    "export": 1,
    "print": 1,

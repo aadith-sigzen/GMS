@@ -6,9 +6,10 @@ app_publisher = "Aadith"
 app_description = "Gym Management Systeam"
 app_email = "aadith.p@sigzen@123#"
 app_license = "MIT"
-
+from route import routes
 # Includes in <head>
 # ------------------
+website_route_rules = routes
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/gms/css/gms.css"
