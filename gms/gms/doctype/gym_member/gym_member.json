@@ -11,7 +11,6 @@
   "first_name",
   "gender",
   "date_of_birth",
-  "age",
   "column_break_eqqzp",
   "naming_series",
   "full_name",
@@ -231,9 +230,13 @@
  "index_web_pages_for_search": 1,
  "links": [],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  "modified": "2023-04-26 13:33:39.012041",
 =======
  "modified": "2023-04-27 11:17:10.775841",
+>>>>>>> Stashed changes
+=======
+ "modified": "2023-04-27 11:50:09.084869",
 >>>>>>> Stashed changes
  "modified_by": "Administrator",
  "module": "Gms",
@@ -260,6 +263,20 @@
    "read": 1,
    "report": 1,
    "role": "Gym Member",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "select": 1,
    "share": 1,
    "write": 1
   }

@@ -12,9 +12,10 @@ from frappe.utils import today
 
 class GymMembership(Document):
 	def validate(self):
-		gym_membership = frappe.get_last_doc('Gym Membership', filters={"gym_member": self.gym_member})
-		if str(gym_membership.to_date) >= nowdate():
-			frappe.throw("You get allredy membership")
+		if frappe.db.exists('Gym Membership', {"gym_member": self.gym_member}):
+			gym_membership = frappe.get_last_doc('Gym Membership', filters={"gym_member": self.gym_member})
+			if str(gym_membership.to_date) >= nowdate():
+				frappe.throw("You get alredy membership")
 		else:
 			frappe.msgprint(('Your Gym Workout Plan '))
 	def before_save(self):

@@ -15,7 +15,6 @@
   "column_break_cshba",
   "durnation",
   "rate",
-  "details_tab",
   "from_date",
   "days",
   "total_amount",
@@ -53,7 +52,7 @@
   {
    "fieldname": "from_date",
    "fieldtype": "Date",
-   "label": "From Date",
+   "label": "Arrival date",
    "reqd": 1
   },
   {
@@ -78,11 +77,6 @@
   {
    "fieldname": "column_break_ulyib",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "details_tab",
-   "fieldtype": "Tab Break",
-   "label": "Details"
   },
   {
    "fieldname": "total_amount",
@@ -128,7 +122,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-04-26 10:40:54.133935",
+ "modified": "2023-04-27 12:02:18.148773",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Membership",
