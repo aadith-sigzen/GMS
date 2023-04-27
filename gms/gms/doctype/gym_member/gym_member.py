@@ -9,11 +9,11 @@ class GymMember(Document):
 	def get_feed(self):
 		return self.full_name
 	def autoname(self):
-		full_name = self.first_name + ' ' + self.last_name
+		full_name = self.first_name +(self.last_name or ' ')
 		self.full_name = full_name
 		self.name = full_name
 	def validate(self):
-		full_name = self.first_name + ' ' + self.last_name
+		full_name = self.first_name + (self.last_name or ' ')
 		self.full_name = full_name
 		self.create_customer()
 	def create_customer(self):

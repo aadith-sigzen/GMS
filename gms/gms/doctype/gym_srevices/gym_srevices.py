@@ -10,6 +10,6 @@ class GymSrevices(Document):
 
 			book_locker = frappe.db.count('Gym Srevices',{'book_locker': 1})
 			if book_locker >= frappe.db.get_single_value('Gym Settings', 'locker_limt'):
-				frappe.throw("Locker is not avible, please check after some time.")
+				frappe.throw("All slots are filled.")
 			else:
 				frappe.msgprint(('Your locker is booked successfully.'))
