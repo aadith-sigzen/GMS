@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"kSH_MGKfeC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"AAudtJZvjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Exercise Type\",\"col\":3}},{\"id\":\"1jTb08NjXS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fitness track\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}}]",
+ "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"kSH_MGKfeC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"AAudtJZvjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Exercise Type\",\"col\":3}},{\"id\":\"1jTb08NjXS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fitness track\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}},{\"id\":\"Uf6eNgN7sd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"odaODR-73y\",\"type\":\"card\",\"data\":{\"card_name\":\"Report Master\",\"col\":4}}]",
  "creation": "2023-04-24 16:02:31.803180",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -8,10 +8,29 @@
  "hide_custom": 0,
  "icon": "heart-active",
  "idx": 0,
- "is_hidden": 0,
+ "is_hidden": 1,
  "label": "GMS",
- "links": [],
- "modified": "2023-04-27 14:14:56.833832",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report Master",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fitness track",
+   "link_count": 0,
+   "link_to": "Fitness track",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-04-27 17:53:10.798714",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "GMS",
@@ -31,7 +50,7 @@
    "role": "Gym Trainer"
   }
  ],
- "sequence_id": 31.0,
+ "sequence_id": 1.0,
  "shortcuts": [
   {
    "color": "Grey",
