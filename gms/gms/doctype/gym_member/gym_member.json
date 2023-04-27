@@ -16,7 +16,7 @@
   "naming_series",
   "full_name",
   "last_name",
-  "wiegth",
+  "weight",
   "height",
   "section_break_r4p6p",
   "health_matrix",
@@ -65,11 +65,19 @@
    "reqd": 1
   },
   {
+<<<<<<< Updated upstream
    "fieldname": "wiegth",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Wiegth",
+=======
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Age",
+>>>>>>> Stashed changes
    "reqd": 1
   },
   {
@@ -106,7 +114,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Height",
+   "label": "Height(in cm)",
    "reqd": 1
   },
   {
@@ -200,6 +208,7 @@
    "fieldtype": "Section Break"
   },
   {
+<<<<<<< Updated upstream
    "fieldname": "health_matrix",
    "fieldtype": "Table",
    "label": "Health Matrix",
@@ -209,12 +218,23 @@
    "fieldname": "date_of_birth",
    "fieldtype": "Date",
    "label": "Date of Birth",
+=======
+   "fieldname": "weight",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Weight",
+>>>>>>> Stashed changes
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
+<<<<<<< Updated upstream
  "modified": "2023-04-26 13:33:39.012041",
+=======
+ "modified": "2023-04-27 11:17:10.775841",
+>>>>>>> Stashed changes
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",

@@ -36,7 +36,7 @@
  "idx": 0,
  "is_standard": "Yes",
  "json": "{\"filters\":[],\"fields\":[[\"name\",\"Group Class\"],[\"member\",\"Group Class\"],[\"class_type\",\"Group Class\"],[\"class_time\",\"Group Class\"],[\"select_day\",\"Group Class\"]],\"order_by\":\"`tabGroup Class`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"name\":120,\"member\":120,\"class_type\":120,\"class_time\":120,\"select_day\":120},\"group_by\":null}",
- "modified": "2023-04-26 12:54:48.626299",
+ "modified": "2023-04-26 19:06:52.706066",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Group Weekly Summary",
@@ -44,13 +44,16 @@
  "prepared_report": 0,
  "ref_doctype": "Group Class",
  "report_name": "Group Weekly Summary",
- "report_type": "Report Builder",
+ "report_type": "Script Report",
  "roles": [
   {
    "role": "System Manager"
   },
   {
    "role": "Gym Member"
+  },
+  {
+   "role": "Report Manager"
   }
  ]
 }
