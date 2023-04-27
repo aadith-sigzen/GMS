@@ -41,11 +41,16 @@ class GymMember(Document):
 			})
 			address_doc.save(ignore_permissions=True)
 			frappe.msgprint(_('Customer created for <b>{0}</b>'.format(self.full_name)), alert = 1)
+<<<<<<< Updated upstream
 
 	def compute_age(self):
 		if self.date_of_birth:
 			self.age = frappe.utils.date_diff(frappe.utils.today(),self.date_of_birth) / 365
 
+=======
+	def on_trash(self):
+		frappe.db.delete("User",{"full_name":self.full_name})
+>>>>>>> Stashed changes
 
 @frappe.whitelist()
 def check_user(user_name,email_id):

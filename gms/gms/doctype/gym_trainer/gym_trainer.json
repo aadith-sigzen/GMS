@@ -15,16 +15,17 @@
   "full_name",
   "last_name",
   "dob",
+  "trainer_category",
   "details_tab",
   "address",
   "column_break_swvzp",
   "email",
   "phone",
+  "relationship",
   "emergency_contact_information_tab",
   "contact_name",
   "phone_number",
-  "column_break_bazju",
-  "relationship"
+  "column_break_bazju"
  ],
  "fields": [
   {
@@ -140,11 +141,17 @@
    "fieldname": "dob",
    "fieldtype": "Date",
    "label": "DOB"
+  },
+  {
+   "fieldname": "trainer_category",
+   "fieldtype": "Select",
+   "label": "Trainer Category",
+   "options": "\nGym\nDance\nGarba\nBoxing\nSinging\nZumba Class"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-24 17:33:08.923526",
+ "modified": "2023-04-27 10:57:39.189368",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",

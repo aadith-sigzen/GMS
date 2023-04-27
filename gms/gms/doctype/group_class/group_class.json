@@ -11,7 +11,8 @@
   "member",
   "class_type",
   "select_day",
-  "class_time"
+  "class_time",
+  "gym_trainer"
  ],
  "fields": [
   {
@@ -24,7 +25,7 @@
    "fieldname": "class_type",
    "fieldtype": "Select",
    "label": "Class Type",
-   "options": "\nDance\nBoxing"
+   "options": "\nDance\nBoxing\nSinging\nGarba\nZumba Class"
   },
   {
    "fieldname": "select_day",
@@ -36,12 +37,19 @@
    "fieldname": "class_time",
    "fieldtype": "Select",
    "label": "Class Time",
-   "options": "2 PM\n4 PM"
+   "options": "\n2 PM\n4 PM\n6 PM"
+  },
+  {
+   "fieldname": "gym_trainer",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "label": "Gym Trainer",
+   "options": "Gym Trainer"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-26 13:12:38.227954",
+ "modified": "2023-04-27 11:33:43.307280",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Group Class",
@@ -69,6 +77,7 @@
    "read": 1,
    "report": 1,
    "role": "Gym Member",
+   "select": 1,
    "share": 1,
    "write": 1
   }

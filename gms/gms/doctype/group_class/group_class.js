@@ -2,7 +2,8 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Group Class', {
-	// refresh: function(frm) {
+	on_change: function(frm) {
+		
 
-	// }
+	}
 });
