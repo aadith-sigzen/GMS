@@ -17,6 +17,7 @@
    "label": "Trainer Limt"
   },
   {
+   "default": "0",
    "fieldname": "locker_limt",
    "fieldtype": "Int",
    "label": "Locker Limt"
@@ -25,7 +26,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-04-27 13:47:53.616758",
+ "modified": "2023-04-27 19:31:07.692666",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Settings",
