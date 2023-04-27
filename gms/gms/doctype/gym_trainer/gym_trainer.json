@@ -21,11 +21,11 @@
   "column_break_swvzp",
   "email",
   "phone",
-  "relationship",
   "emergency_contact_information_tab",
   "contact_name",
   "phone_number",
-  "column_break_bazju"
+  "column_break_bazju",
+  "relationship"
  ],
  "fields": [
   {
@@ -146,12 +146,12 @@
    "fieldname": "trainer_category",
    "fieldtype": "Select",
    "label": "Trainer Category",
-   "options": "\nGym\nDance\nGarba\nBoxing\nSinging\nZumba Class"
+   "options": "\nGym\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-27 10:57:39.189368",
+ "modified": "2023-04-27 15:23:29.016693",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
