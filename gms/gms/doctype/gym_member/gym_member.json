@@ -10,17 +10,12 @@
  "field_order": [
   "first_name",
   "gender",
-<<<<<<< Updated upstream
   "date_of_birth",
-=======
-  "dob",
-  "age",
->>>>>>> Stashed changes
   "column_break_eqqzp",
   "naming_series",
   "full_name",
   "last_name",
-  "weight",
+  "wiegth",
   "height",
   "section_break_r4p6p",
   "review",
@@ -45,8 +40,7 @@
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
-   "label": "First Name",
-   "reqd": 1
+   "label": "First Name"
   },
   {
    "fieldname": "gender",
@@ -54,22 +48,12 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Gender",
-   "options": "Gender",
-   "reqd": 1
+   "options": "Gender"
   },
   {
-   "fieldname": "dob",
+   "fieldname": "date_of_birth",
    "fieldtype": "Date",
-   "label": "DOB",
-   "reqd": 1
-  },
-  {
-   "fieldname": "age",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Age",
-   "reqd": 1
+   "label": "Date of Birth"
   },
   {
    "fieldname": "column_break_eqqzp",
@@ -91,30 +75,48 @@
    "unique": 1
   },
   {
-   "fieldname": "last_name",
-   "fieldtype": "Data",
-   "label": "Last Name",
-   "reqd": 1
+   "default": "GYM-.{first_name}.{last_name}.-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "GYM-.{first_name}.{last_name}.-.YYYY.-"
   },
   {
-   "fieldname": "weight",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "wiegth",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Weight",
-   "reqd": 1
+   "label": "Wiegth"
   },
   {
    "fieldname": "height",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Height(in cm)",
-   "reqd": 1
+   "label": "Height (cm)"
   },
   {
    "fieldname": "section_break_r4p6p",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "health_matrix",
+   "fieldtype": "Table",
+   "label": "Health Matrix",
+   "options": "Customer Metrics"
   },
   {
    "fieldname": "review",
@@ -130,8 +132,7 @@
   {
    "fieldname": "address_line1",
    "fieldtype": "Data",
-   "label": "Address Line1",
-   "reqd": 1
+   "label": "Address Line1"
   },
   {
    "fieldname": "address_line2",
@@ -145,14 +146,12 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
-   "label": "City/Town",
-   "reqd": 1
+   "label": "City/Town"
   },
   {
    "fieldname": "state",
    "fieldtype": "Data",
-   "label": "State/Province",
-   "reqd": 1
+   "label": "State/Province"
   },
   {
    "fieldname": "country",
@@ -171,8 +170,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Email",
-   "options": "Email",
-   "reqd": 1
+   "options": "Email"
   },
   {
    "fieldname": "column_break_mzish",
@@ -184,8 +182,7 @@
    "fieldtype": "Phone",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Phone",
-   "reqd": 1
+   "label": "Phone"
   },
   {
    "fieldname": "emergency_contact_information_tab",
@@ -195,15 +192,13 @@
   {
    "fieldname": "contact_name",
    "fieldtype": "Data",
-   "label": "Contact Name",
-   "reqd": 1
+   "label": "Contact Name"
   },
   {
    "default": "+91-",
    "fieldname": "phone_number",
    "fieldtype": "Phone",
-   "label": "Phone Number",
-   "reqd": 1
+   "label": "Phone Number"
   },
   {
    "fieldname": "column_break_bazju",
@@ -213,25 +208,12 @@
    "fieldname": "relationship",
    "fieldtype": "Select",
    "label": "Relationship",
-   "options": "Spouse\nSibling\nParent\nFriend",
-   "reqd": 1
+   "options": "Spouse\nSibling\nParent\nFriend"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
- "modified": "2023-04-26 13:33:39.012041",
-=======
- "modified": "2023-04-27 11:17:10.775841",
->>>>>>> Stashed changes
-=======
- "modified": "2023-04-27 11:50:09.084869",
->>>>>>> Stashed changes
-=======
- "modified": "2023-04-27 13:08:05.885242",
->>>>>>> Stashed changes
+ "modified": "2023-04-27 13:48:30.017862",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",

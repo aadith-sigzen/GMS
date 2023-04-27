@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"AAudtJZvjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Exercise Type\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"dpfHahI1fj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Subscription\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}}]",
+ "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"kSH_MGKfeC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"AAudtJZvjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Exercise Type\",\"col\":3}},{\"id\":\"1jTb08NjXS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fitness track\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}}]",
  "creation": "2023-04-24 16:02:31.803180",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -11,7 +11,7 @@
  "is_hidden": 0,
  "label": "GMS",
  "links": [],
- "modified": "2023-04-24 17:11:06.377377",
+ "modified": "2023-04-27 14:14:56.833832",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "GMS",
@@ -33,6 +33,20 @@
  ],
  "sequence_id": 31.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Fitness track",
+   "link_to": "Fitness track",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Srevices",
+   "link_to": "Gym Srevices",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
@@ -59,13 +73,6 @@
    "doc_view": "List",
    "label": "Gym Trainer",
    "link_to": "Gym Trainer",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Gym Subscription",
-   "link_to": "Gym Subscription",
    "type": "DocType"
   },
   {

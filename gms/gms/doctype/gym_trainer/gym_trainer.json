@@ -7,7 +7,6 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "salutation",
   "first_name",
   "gender",
   "age",
@@ -15,7 +14,6 @@
   "full_name",
   "last_name",
   "dob",
-  "trainer_category",
   "details_tab",
   "address",
   "column_break_swvzp",
@@ -29,17 +27,9 @@
  ],
  "fields": [
   {
-   "fieldname": "salutation",
-   "fieldtype": "Link",
-   "label": "Salutation",
-   "options": "Salutation",
-   "reqd": 1
-  },
-  {
    "fieldname": "first_name",
    "fieldtype": "Data",
-   "label": "First Name",
-   "reqd": 1
+   "label": "First Name"
   },
   {
    "fieldname": "gender",
@@ -47,16 +37,14 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Gender",
-   "options": "Gender",
-   "reqd": 1
+   "options": "Gender"
   },
   {
    "fieldname": "age",
    "fieldtype": "Int",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Age",
-   "reqd": 1
+   "label": "Age"
   },
   {
    "fieldname": "column_break_eqqzp",
@@ -72,8 +60,7 @@
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Last Name",
-   "reqd": 1
+   "label": "Last Name"
   },
   {
    "fieldname": "details_tab",
@@ -83,8 +70,7 @@
   {
    "fieldname": "address",
    "fieldtype": "Small Text",
-   "label": "Address",
-   "reqd": 1
+   "label": "Address"
   },
   {
    "fieldname": "column_break_swvzp",
@@ -96,8 +82,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Email",
-   "options": "Email",
-   "reqd": 1
+   "options": "Email"
   },
   {
    "default": "+91-",
@@ -105,8 +90,7 @@
    "fieldtype": "Phone",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Phone",
-   "reqd": 1
+   "label": "Phone"
   },
   {
    "fieldname": "emergency_contact_information_tab",
@@ -116,15 +100,13 @@
   {
    "fieldname": "contact_name",
    "fieldtype": "Data",
-   "label": "Contact Name",
-   "reqd": 1
+   "label": "Contact Name"
   },
   {
    "default": "+91-",
    "fieldname": "phone_number",
    "fieldtype": "Phone",
-   "label": "Phone Number",
-   "reqd": 1
+   "label": "Phone Number"
   },
   {
    "fieldname": "column_break_bazju",
@@ -134,24 +116,17 @@
    "fieldname": "relationship",
    "fieldtype": "Select",
    "label": "Relationship",
-   "options": "Spouse\nSibling\nParent\nFriend",
-   "reqd": 1
+   "options": "Spouse\nSibling\nParent\nFriend"
   },
   {
    "fieldname": "dob",
    "fieldtype": "Date",
    "label": "DOB"
-  },
-  {
-   "fieldname": "trainer_category",
-   "fieldtype": "Select",
-   "label": "Trainer Category",
-   "options": "\nGym\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-27 15:23:29.016693",
+ "modified": "2023-04-27 16:14:32.257739",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
