@@ -116,21 +116,21 @@ permission_query_conditions = {
 # ---------------
 
 # scheduler_events = {
-#	"all": [
-#		"gms.tasks.all"
-#	],
-#	"daily": [
-#		"gms.tasks.daily"
-#	],
-#	"hourly": [
-#		"gms.tasks.hourly"
-#	],
-#	"weekly": [
-#		"gms.tasks.weekly"
-#	],
-#	"monthly": [
-#		"gms.tasks.monthly"
-#	],
+# 	"all": [
+# 		"gms.tasks.all"
+# 	],
+# 	"daily": [
+# 		"gms.tasks.daily"
+# 	],
+# 	"hourly": [
+# 		"gms.tasks.hourly"
+# 	],
+# 	"weekly": [
+# 		"gms.tasks.weekly"
+# 	],
+# 	"monthly": [
+# 		"gms.tasks.monthly"
+# 	],
 # }
 
 # Testing
