@@ -25,19 +25,19 @@
    "fieldname": "class_type",
    "fieldtype": "Select",
    "label": "Class Type",
-   "options": "\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
+   "options": "Dance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
   },
   {
    "fieldname": "select_day",
    "fieldtype": "Select",
    "label": "Select Day",
-   "options": "\nSaturday\nSunday"
+   "options": "Saturday\nSunday"
   },
   {
    "fieldname": "class_time",
    "fieldtype": "Select",
    "label": "Class Time",
-   "options": "\n2 PM\n4 PM\n6 PM"
+   "options": "2 PM\n4 PM\n6 PM"
   },
   {
    "fieldname": "gym_trainer",
@@ -49,7 +49,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-27 15:22:36.969833",
+ "modified": "2023-04-27 17:55:08.868870",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Group Class",
