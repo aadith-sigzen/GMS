@@ -10,17 +10,17 @@
  "field_order": [
   "naming_series",
   "gym_member",
-  "gym_workout_plan",
-  "gym_trainer",
-  "column_break_cshba",
-  "durnation",
-  "rate",
   "from_date",
-  "days",
+  "rate",
+  "paid",
+  "column_break_cshba",
+  "gym_workout_plan",
+  "to_date",
   "total_amount",
   "column_break_ulyib",
-  "to_date",
-  "paid",
+  "durnation",
+  "gym_trainer",
+  "payment_date",
   "amended_from"
  ],
  "fields": [
@@ -52,7 +52,7 @@
   {
    "fieldname": "from_date",
    "fieldtype": "Date",
-   "label": "Arrival date",
+   "label": "Activation date",
    "reqd": 1
   },
   {
@@ -106,23 +106,21 @@
    "reqd": 1
   },
   {
-   "fieldname": "days",
-   "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Days",
-   "read_only": 1
-  },
-  {
    "fieldname": "gym_trainer",
    "fieldtype": "Link",
    "label": "Gym Trainer",
    "options": "Gym Trainer"
+  },
+  {
+   "fieldname": "payment_date",
+   "fieldtype": "Date",
+   "label": "Payment Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-04-27 12:02:18.148773",
+ "modified": "2023-04-27 15:46:57.417810",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Membership",

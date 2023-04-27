@@ -85,7 +85,8 @@ website_route_rules = routes
 
 permission_query_conditions = {
 	"Gym Member": "gms.permission_query.permission.get_permission_query_conditions_for_gym_member",
-    "Group Class":"gms.permission_query.permission.get_permission_query_conditions_for_group_class"
+    "Group Class":"gms.permission_query.permission.get_permission_query_conditions_for_group_class",
+    "Gym Trainer":"gms.permission_query.permission.get_permission_query_conditions_for_trainer"
 }
 #
 # has_permission = {
