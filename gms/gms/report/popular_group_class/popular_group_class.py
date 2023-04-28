@@ -37,7 +37,7 @@ def execute(filters=None):
         	],
         }
     }
-	return columns, data, "njcej", chart
+	return columns, data, "Popular group class chart", chart
 
 
 def get_columns():

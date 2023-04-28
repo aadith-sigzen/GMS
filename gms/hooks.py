@@ -2,6 +2,7 @@ from . import __version__ as app_version
 
 app_name = "gms"
 app_title = "Gms"
+app_logo = "https://seeklogo.com/images/F/fitness-gym-logo-9191CD4CF2-seeklogo.com.png"
 app_publisher = "Aadith"
 app_description = "Gym Management Systeam"
 app_email = "aadith.p@sigzen@123#"
@@ -139,7 +140,7 @@ permission_query_conditions = {
 fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer","Gym Admin"]]]},
             {"dt":"Role Profile","filters":[["name","in",["Gym Menber","Gym Trainer"]]]}, {"dt":"Website Slideshow"} ,  {"dt":"Website Settings"},
             {"dt":"Homepage"},{"dt":"Web Page"},
-            {"dt": "Gym Workout Plan"}] 
+            {"dt": "Gym Workout Plan"},{"dt":"Navbar Settings"}] 
 
 
 # before_tests = "gms.install.before_tests"

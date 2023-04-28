@@ -6,36 +6,72 @@
   "gym_workout_plan_exercise": [
    {
     "day": "1",
-    "exercise_type": "Full body exercise",
+    "exercise_type": "Back Exercise",
     "parent": "Beginner level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
-    "reps": "12",
-    "sets": "3"
+    "reps": "10",
+    "sets": "2"
    },
    {
     "day": "2",
-    "exercise_type": "Full body workout",
+    "exercise_type": "Chest Exercise",
     "parent": "Beginner level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
-    "reps": "12",
-    "sets": "3"
+    "reps": "10",
+    "sets": "2"
+   },
+   {
+    "day": "3",
+    "exercise_type": "Leg Exercise",
+    "parent": "Beginner level",
+    "parentfield": "gym_workout_plan_exercise",
+    "parenttype": "Gym Workout Plan",
+    "reps": "10",
+    "sets": "2"
+   },
+   {
+    "day": "4",
+    "exercise_type": "Back Exercise",
+    "parent": "Beginner level",
+    "parentfield": "gym_workout_plan_exercise",
+    "parenttype": "Gym Workout Plan",
+    "reps": "10",
+    "sets": "2"
+   },
+   {
+    "day": "5",
+    "exercise_type": "Chest Exercise",
+    "parent": "Beginner level",
+    "parentfield": "gym_workout_plan_exercise",
+    "parenttype": "Gym Workout Plan",
+    "reps": "10",
+    "sets": "2"
+   },
+   {
+    "day": "6",
+    "exercise_type": "Leg Exercise",
+    "parent": "Beginner level",
+    "parentfield": "gym_workout_plan_exercise",
+    "parenttype": "Gym Workout Plan",
+    "reps": "10",
+    "sets": "2"
    }
   ],
-  "modified": "2023-04-26 12:12:12.320861",
+  "modified": "2023-04-28 15:46:18.408492",
   "name": "Beginner level",
   "rate": 2000.0
  },
  {
   "docstatus": 0,
   "doctype": "Gym Workout Plan",
-  "gym_workout_plan": "Intermediate lavel",
+  "gym_workout_plan": "Intermediate level",
   "gym_workout_plan_exercise": [
    {
     "day": "1",
     "exercise_type": "Shoulder Press",
-    "parent": "Intermediate lavel",
+    "parent": "Intermediate level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "12",
@@ -44,7 +80,7 @@
    {
     "day": "2",
     "exercise_type": "Back and Biceps",
-    "parent": "Intermediate lavel",
+    "parent": "Intermediate level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "12",
@@ -53,7 +89,7 @@
    {
     "day": "3",
     "exercise_type": "Chest and Triceps",
-    "parent": "Intermediate lavel",
+    "parent": "Intermediate level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "12",
@@ -62,7 +98,7 @@
    {
     "day": "4",
     "exercise_type": "Legs",
-    "parent": "Intermediate lavel",
+    "parent": "Intermediate level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "12",
@@ -70,18 +106,18 @@
    }
   ],
   "modified": "2023-04-26 12:12:05.995073",
-  "name": "Intermediate lavel",
+  "name": "Intermediate level",
   "rate": 5000.0
  },
  {
   "docstatus": 0,
   "doctype": "Gym Workout Plan",
-  "gym_workout_plan": "Advanced lavel",
+  "gym_workout_plan": "Advanced level",
   "gym_workout_plan_exercise": [
    {
     "day": "1",
     "exercise_type": "Upper body and Abs",
-    "parent": "Advanced lavel",
+    "parent": "Advanced level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "15",
@@ -90,7 +126,7 @@
    {
     "day": "2",
     "exercise_type": "Lower body and Abs",
-    "parent": "Advanced lavel",
+    "parent": "Advanced level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "15",
@@ -99,7 +135,7 @@
    {
     "day": "3",
     "exercise_type": "Chest and Abs",
-    "parent": "Advanced lavel",
+    "parent": "Advanced level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "15",
@@ -108,7 +144,7 @@
    {
     "day": "4",
     "exercise_type": "Arms and Abs",
-    "parent": "Advanced lavel",
+    "parent": "Advanced level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "15",
@@ -117,7 +153,7 @@
    {
     "day": "5",
     "exercise_type": "Legs",
-    "parent": "Advanced lavel",
+    "parent": "Advanced level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "15",
@@ -126,7 +162,7 @@
    {
     "day": "6",
     "exercise_type": "Abs",
-    "parent": "Advanced lavel",
+    "parent": "Advanced level",
     "parentfield": "gym_workout_plan_exercise",
     "parenttype": "Gym Workout Plan",
     "reps": "15",
@@ -134,7 +170,7 @@
    }
   ],
   "modified": "2023-04-26 12:11:47.840876",
-  "name": "Advanced lavel",
+  "name": "Advanced level",
   "rate": 10000.0
  }
 ]
