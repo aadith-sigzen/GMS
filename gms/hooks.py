@@ -7,6 +7,7 @@ app_publisher = "Aadith"
 app_description = "Gym Management Systeam"
 app_email = "aadith.p@sigzen@123#"
 app_license = "MIT"
+required_apps = ["erpnext"]
 from route import routes
 # Includes in <head>
 # ------------------
