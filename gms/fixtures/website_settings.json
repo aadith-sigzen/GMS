@@ -41,7 +41,7 @@
   "home_page": "home",
   "indexing_authorization_code": null,
   "indexing_refresh_token": null,
-  "modified": "2023-04-28 15:18:24.866223",
+  "modified": "2023-04-28 16:06:39.542126",
   "name": "Website Settings",
   "navbar_search": 0,
   "navbar_template": "Standard Navbar",
@@ -67,25 +67,14 @@
    },
    {
     "icon": null,
-    "label": "Blog",
+    "label": "Workout Plans",
     "open_in_new_tab": 0,
     "parent": "Website Settings",
     "parent_label": null,
     "parentfield": "top_bar_items",
     "parenttype": "Website Settings",
     "right": 0,
-    "url": "/blog"
-   },
-   {
-    "icon": null,
-    "label": "Products",
-    "open_in_new_tab": 0,
-    "parent": "Website Settings",
-    "parent_label": null,
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
-    "right": 0,
-    "url": "/all-products"
+    "url": "/plans"
    }
   ],
   "website_theme": "Standard",
