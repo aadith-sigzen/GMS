@@ -26,20 +26,21 @@ class GymMember(Document):
 			customer.customer_group = "Individual"
 			customer.territory = "India"
 			customer.save()
-			address_doc = frappe.new_doc('Address')
-			address_doc.address_title = self.full_name+"-"+"Billing"
-			address_doc.address_type = "Billing"
-			address_doc.address_line1 = self.address_line1
-			if self.address_line2:
-				address_doc.address_line2 = self.address_line2
-			address_doc.city = self.city
-			address_doc.state = self.state
-			address_doc.country = self.country
-			address_doc.append('links', {
-			'link_doctype': 'Customer',
-			'link_name': customer.name
-			})
-			address_doc.save(ignore_permissions=True)
+			if self.address_line1:
+				address_doc = frappe.new_doc('Address')
+				address_doc.address_title = self.full_name+"-"+"Billing"
+				address_doc.address_type = "Billing"
+				address_doc.address_line1 = self.address_line1
+				if self.address_line2:
+					address_doc.address_line2 = self.address_line2
+				address_doc.city = self.city
+				address_doc.state = self.state
+				address_doc.country = self.country
+				address_doc.append('links', {
+				'link_doctype': 'Customer',
+				'link_name': customer.name
+				})
+				address_doc.save(ignore_permissions=True)
 			frappe.msgprint(_('Customer created for <b>{0}</b>'.format(self.full_name)), alert = 1)
 
 	def compute_age(self):
