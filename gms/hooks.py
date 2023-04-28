@@ -139,9 +139,14 @@ permission_query_conditions = {
 # Testing
 # -------
 fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer","Gym Admin"]]]},
-            {"dt":"Role Profile","filters":[["name","in",["Gym Menber","Gym Trainer"]]]}, {"dt":"Website Slideshow"} ,  {"dt":"Website Settings"},
-            {"dt":"Homepage"},{"dt":"Web Page"},
-            {"dt": "Gym Workout Plan"},{"dt":"Navbar Settings"}] 
+            {"dt":"Role Profile","filters":[["name","in",["Gym Menber","Gym Trainer"]]]}, 
+            {"dt":"Website Slideshow"} ,  
+            {"dt":"Website Settings"},
+            {"dt":"Homepage"},
+            {"dt":"Web Page"},
+            {"dt": "Gym Workout Plan"},{"dt":"Navbar Settings"},{"dt":"Custom DocPerm"},
+            {"dt":"Custom DocPerm","filters":[["parent", "in",["Customer","Address","Contact"]]]}
+            ]
 
 
 # before_tests = "gms.install.before_tests"
