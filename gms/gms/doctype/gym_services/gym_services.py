@@ -4,7 +4,7 @@
 import frappe
 from frappe.model.document import Document
 
-class GymSrevices(Document):
+class GymServices(Document):
 	def validate(self):
 		if self.book_locker==1:
 

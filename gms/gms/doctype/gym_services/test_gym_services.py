@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestGymSrevices(FrappeTestCase):
+class TestGymServices(FrappeTestCase):
 	pass

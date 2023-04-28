@@ -1,7 +1,7 @@
 // Copyright (c) 2023, Aadith and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Gym Srevices', {
+frappe.ui.form.on('Exercise Type', {
 	// refresh: function(frm) {
 
 	// }
