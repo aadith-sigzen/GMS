@@ -149,7 +149,7 @@ fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer",
             {"dt": "Gym Workout Plan"},
             {"dt":"Navbar Settings"},
             {"dt":"Custom DocPerm"},
-            {"dt":"Custom DocPerm","filters":[["parent", "in",["Customer","Address","Contact"]]]},
+            {"dt":"Custom DocPerm","filters":[["parent", "in",["Customer","Address","Contact","User"]]]},
             {"dt":"Module Profile"}]
 
 
