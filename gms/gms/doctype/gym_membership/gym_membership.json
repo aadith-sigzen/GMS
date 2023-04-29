@@ -44,6 +44,7 @@
    "reqd": 1
   },
   {
+   "default": "Today",
    "fieldname": "from_date",
    "fieldtype": "Date",
    "label": "Activation date",
@@ -117,7 +118,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 18:13:57.646646",
+ "modified": "2023-04-29 18:35:02.867254",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Membership",
