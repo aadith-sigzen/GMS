@@ -141,7 +141,7 @@ permission_query_conditions = {
 # Testing
 # -------
 fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer","Gym Admin"]]]},
-            {"dt":"Role Profile","filters":[["name","in",["Gym Menber","Gym Trainer"]]]}, 
+            {"dt":"Role Profile","filters":[["name","in",["Gym Member","Gym Trainer"]]]}, 
             {"dt":"Website Slideshow"} ,  
             {"dt":"Website Settings"},
             {"dt":"Homepage"},

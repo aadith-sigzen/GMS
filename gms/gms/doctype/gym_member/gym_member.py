@@ -65,7 +65,7 @@ def create_user(customer):
 		'first_name': customer_doc.customer_name,
 		'send_welcome_email': 1,
 		'enabled': 1,
-		'role_profile_name': "Gym Menber",
+		'role_profile_name': "Gym Member",
 		'user_type': "Website User",
 		})
 		user.insert()
