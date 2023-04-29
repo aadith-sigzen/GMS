@@ -41,7 +41,7 @@
   "home_page": "home",
   "indexing_authorization_code": null,
   "indexing_refresh_token": null,
-  "modified": "2023-04-28 17:43:48.556640",
+  "modified": "2023-04-29 16:16:47.197848",
   "name": "Website Settings",
   "navbar_search": 0,
   "navbar_template": "Standard Navbar",
@@ -56,36 +56,25 @@
   "top_bar_items": [
    {
     "icon": null,
-    "label": "Contact",
-    "open_in_new_tab": 0,
+    "label": "WORKOUT PLANS",
+    "open_in_new_tab": 1,
     "parent": "Website Settings",
     "parent_label": null,
     "parentfield": "top_bar_items",
     "parenttype": "Website Settings",
-    "right": 0,
-    "url": "/contact"
+    "right": 1,
+    "url": "plans"
    },
    {
     "icon": null,
-    "label": "Blog",
+    "label": "Gym Memeber",
     "open_in_new_tab": 0,
     "parent": "Website Settings",
     "parent_label": null,
     "parentfield": "top_bar_items",
     "parenttype": "Website Settings",
-    "right": 0,
-    "url": "/blog"
-   },
-   {
-    "icon": null,
-    "label": "Products",
-    "open_in_new_tab": 0,
-    "parent": "Website Settings",
-    "parent_label": null,
-    "parentfield": "top_bar_items",
-    "parenttype": "Website Settings",
-    "right": 0,
-    "url": "/all-products"
+    "right": 1,
+    "url": "member"
    }
   ],
   "website_theme": "Standard",
