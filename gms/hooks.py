@@ -3,9 +3,9 @@ from . import __version__ as app_version
 app_name = "gms"
 app_title = "Gms"
 app_logo = "https://seeklogo.com/images/F/fitness-gym-logo-9191CD4CF2-seeklogo.com.png"
-app_publisher = "Aadith"
+app_publisher = "Sigzen"
 app_description = "Gym Management Systeam"
-app_email = "aadith.p@sigzen@123#"
+app_email = "info@sigzen.com"
 app_license = "MIT"
 required_apps = ["erpnext"]
 from route import routes
