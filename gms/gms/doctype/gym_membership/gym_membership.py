@@ -17,7 +17,7 @@ class GymMembership(Document):
             if str(gym_membership.to_date) >= nowdate():
                 frappe.throw("You are alredy membership")
         else:	
-            frappe.msgprint(('Your changes are saved succefully  '))
+            frappe.msgprint(('Your changes are saved succesfully  '))
     def before_save(self):
         if self.durnation == "Monthly":
             self.total_amount = self.rate*1
@@ -28,5 +28,7 @@ class GymMembership(Document):
         else:
             self.total_amount = self.rate*12
             self.to_date= frappe.utils.add_days(self.from_date, 365)
+        if self.paid == "Paid" and self.payment_date == None:
+            frappe.throw("Not selected payment date")
 
 

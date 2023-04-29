@@ -17,9 +17,10 @@ function check_user(frm) {
 		},
 		callback:function(r){
 			if(r.message){
-				frm.add_custom_button('User', () => {
+				frm.add_custom_button('Create user', () => {
 					create_user(frm)
-				  },(' Create '))
+					frapp.msgprint("User Created Successfully")
+				  },)
 			}
 		}
 	})

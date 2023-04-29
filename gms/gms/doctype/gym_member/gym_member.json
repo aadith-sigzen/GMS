@@ -12,31 +12,29 @@
   "gender",
   "date_of_birth",
   "column_break_eqqzp",
-  "naming_series",
   "full_name",
   "last_name",
   "age",
   "wiegth",
   "height",
   "section_break_r4p6p",
-  "health_matrix",
-  "review",
-  "address_details_tab",
   "address_line1",
   "address_line2",
-  "column_break_swvzp",
   "city",
   "state",
+  "column_break_swvzp",
   "country",
-  "contact_details_tab",
   "email",
-  "column_break_mzish",
   "phone",
-  "emergency_contact_information_tab",
+  "column_break_mzish",
   "contact_name",
   "phone_number",
   "column_break_bazju",
-  "relationship"
+  "relationship",
+  "naming_series",
+  "section_break_wdmug",
+  "health_matrix",
+  "review"
  ],
  "fields": [
   {
@@ -127,11 +125,6 @@
    "options": "Trainer Plan"
   },
   {
-   "fieldname": "address_details_tab",
-   "fieldtype": "Tab Break",
-   "label": "Address Details"
-  },
-  {
    "fieldname": "address_line1",
    "fieldtype": "Data",
    "label": "Address Line1"
@@ -162,11 +155,6 @@
    "options": "Country"
   },
   {
-   "fieldname": "contact_details_tab",
-   "fieldtype": "Tab Break",
-   "label": "Contact Details"
-  },
-  {
    "fieldname": "email",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -176,7 +164,7 @@
   },
   {
    "fieldname": "column_break_mzish",
-   "fieldtype": "Column Break"
+   "fieldtype": "Section Break"
   },
   {
    "default": "+91-",
@@ -185,11 +173,6 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Phone"
-  },
-  {
-   "fieldname": "emergency_contact_information_tab",
-   "fieldtype": "Tab Break",
-   "label": "Emergency Contact Information"
   },
   {
    "fieldname": "contact_name",
@@ -216,11 +199,15 @@
    "fieldname": "age",
    "fieldtype": "Int",
    "label": "Age"
+  },
+  {
+   "fieldname": "section_break_wdmug",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-28 10:24:41.792685",
+ "modified": "2023-04-28 19:02:18.917384",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",
