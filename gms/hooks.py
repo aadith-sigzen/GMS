@@ -145,7 +145,9 @@ fixtures = [{"dt": "Role","filters":[["name", "in", ["Gym Member","Gym Trainer",
             {"dt":"Website Settings"},
             {"dt":"Homepage"},
             {"dt":"Web Page"},
-            {"dt": "Gym Workout Plan"},{"dt":"Navbar Settings"},{"dt":"Custom DocPerm"},
+            {"dt": "Gym Workout Plan"},
+            {"dt":"Navbar Settings"},
+            {"dt":"Custom DocPerm"},
             {"dt":"Custom DocPerm","filters":[["parent", "in",["Customer","Address","Contact"]]]},
             {"dt":"Module Profile"}]
 

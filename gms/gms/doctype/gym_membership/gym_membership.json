@@ -20,10 +20,7 @@
   "column_break_ulyib",
   "durnation",
   "gym_trainer",
-  "amended_from",
-  "status",
-  "to_date",
-  "amended_from"
+  "status"
  ],
  "fields": [
   {
@@ -77,7 +74,7 @@
    "fieldname": "to_date",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "To Date",
+   "label": "Expiry Date",
    "read_only": 1
   },
   {
@@ -120,7 +117,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 15:15:13.689920",
+ "modified": "2023-04-29 18:13:57.646646",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Membership",
