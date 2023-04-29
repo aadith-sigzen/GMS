@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2023-04-29 13:10:40.300544",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-04-29 13:10:40.300544",
+ "modified_by": "Administrator",
+ "module": "Gms",
+ "name": "gym-membership-detai",
+ "owner": "Administrator",
+ "page_name": "gym-membership-detai",
+ "roles": [
+  {
+   "role": "Gym Member"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Gym Membership"
+}

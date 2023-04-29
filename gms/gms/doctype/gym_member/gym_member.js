@@ -6,6 +6,17 @@ frappe.ui.form.on('Gym Member', {
 		if(frm.doc.full_name){
 			check_user(frm)
 		}
+	},
+	date_of_birth:function(frm){
+		var today = new Date(); 
+		// this is how you get data from form
+		var birthDate = new Date(frm.doc.date_of_birth); 
+		var age = today.getFullYear() - birthDate.getFullYear(); var m = today.getMonth() - birthDate.getMonth(); 
+		if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) { 
+		  age--; 
+		}
+		// use frm.set_value to set value of a field
+		frm.set_value('age', age);
 	}
 });
 function check_user(frm) {
