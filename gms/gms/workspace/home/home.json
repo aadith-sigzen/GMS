@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"KBqQ7Ae8L4\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>GMS</b></span>\",\"col\":12}},{\"id\":\"VFkfAGf1XJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}},{\"id\":\"_Y9zTqQkNN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"xOT3fVotIr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership Detail\",\"col\":3}},{\"id\":\"VsgsUZctWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"9RyGjlSSHt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"Fk70RZX3Dt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Group Class\",\"col\":3}},{\"id\":\"ZpGLZY1WpT\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"KBqQ7Ae8L4\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>GMS</b></span>\",\"col\":12}},{\"id\":\"So0EumbKkw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership Details\",\"col\":3}},{\"id\":\"_Y9zTqQkNN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"VsgsUZctWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"9RyGjlSSHt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"Fk70RZX3Dt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Group Class\",\"col\":3}},{\"id\":\"c-pVIID2d1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trainer Rating\",\"col\":3}},{\"id\":\"ZpGLZY1WpT\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2020-01-23 13:46:38.833076",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -199,7 +199,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-04-29 16:40:13.644195",
+ "modified": "2023-04-29 18:29:42.518064",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Home",
@@ -212,6 +212,20 @@
  "roles": [],
  "sequence_id": 2.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Membership Details",
+   "link_to": "gym-membership-detai",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Trainer Rating",
+   "link_to": "Trainer Rating",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
@@ -229,13 +243,6 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Gym Membership Detail",
-   "link_to": "Gym Membership",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
    "label": "Gym Srevices",
    "link_to": "Gym Services",
    "type": "DocType"
@@ -245,13 +252,6 @@
    "doc_view": "List",
    "label": "Gym Trainer",
    "link_to": "Gym Trainer",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Gym Member",
-   "link_to": "Gym Member",
    "type": "DocType"
   }
  ],

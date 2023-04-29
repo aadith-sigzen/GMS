@@ -7,8 +7,9 @@ from datetime import datetime
 @frappe.whitelist()
 def get_gym_membership():
     user = get_user_name(frappe.session.user)
-    gym_membership_doc = frappe.get_last_doc("Gym Membership",{'gym_member':user})
-    return gym_membership_doc
+    if frappe.db.exists("Gym Membership",{'gym_member':user}):
+        gym_membership_doc = frappe.get_last_doc("Gym Membership",{'gym_member':user})
+        return gym_membership_doc
 
 @frappe.whitelist()
 def get_user_name(user):

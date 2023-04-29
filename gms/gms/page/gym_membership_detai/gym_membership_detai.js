@@ -30,14 +30,21 @@ class GymDashbord{
 		frappe.call({
 			method: 'gms.gms.page.gym_membership_detai.gym_membership_detai.get_gym_membership',
 			callback: function(r) {
-				let data = r.message;
+        if(r.message){
+          let data = r.message;
 				me.add_to_records(data);
 				if (!data) {
-					me.page.wrapper.find('.no-more').append(`
+					me.page.wrapper.find('.cars-list').append(`
 						<div class='text-muted' align='center'>
 						<br><br>${__('No more records..')}<br><br>
 						</div>`);
 					}
+        }else{
+          me.page.wrapper.find('.cars-list').append(`
+						<div class='text-muted' align='center'>
+						<br><br>${__('No more records..')}<br><br>
+						</div>`);
+        }
 				}
 			});
 		}
