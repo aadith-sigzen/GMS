@@ -35,7 +35,7 @@ def get_permission_query_conditions_for_group_class(user):
         user = frappe.session.user
     full_name = get_user_name(user)
     user_roles = frappe.get_roles(user)
-    if user != 'Administrator' and 'Gym Member' in user_roles:
+    if (user != 'Administrator' or 'Gym Admin' not in user_roles) and 'Gym Member' in user_roles:
         conditions = '`tabGroup Class`.`member` = "{full_name}"'.format(full_name = full_name)
         return conditions
     
