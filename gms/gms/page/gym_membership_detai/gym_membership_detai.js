@@ -43,6 +43,7 @@ class GymDashbord{
 		}
 		async add_to_records(data) {
 			let me = this
+      let remaining_days = frappe.datetime.get_day_diff(data.to_date,data.from_date)
       let details =""
 			 details += `
 			<div class="content page-container editable-form" style="width: 100%;">
@@ -142,12 +143,12 @@ class GymDashbord{
                                 <div class="frappe-control input-max-width">
                                   <div class="form-group">
                                     <div class="clearfix">
-                                      <label class="control-label" style="padding-right: 0px;">Remaing Day</label>
+                                      <label class="control-label" style="padding-right: 0px;">Validate Days</label>
                                       <span class="help"></span>
                                     </div>
                                     <div class="control-input-wrapper">
                                       <div class="control-input" style="display: none;"></div>
-                                      <div class="control-value like-disabled-input" style="">29-05-2023</div>
+                                      <div class="control-value like-disabled-input" style="">${remaining_days}</div>
                                       <p class="help-box small text-muted"></p>
                                     </div>
                                   </div>
