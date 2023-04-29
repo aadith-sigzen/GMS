@@ -12,7 +12,9 @@ frappe.ui.form.on('Group Class', {
 	});
 },
 refresh:function(frm){
-    frm.set_value("member",frappe.user.full_name);
+    if(!frm.doc.member){
+        frm.set_value("member",frappe.user.full_name);
+    }
 }
 });
 
