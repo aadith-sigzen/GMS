@@ -43,7 +43,8 @@ class GymDashbord{
 		}
 		async add_to_records(data) {
 			let me = this
-			let details = `
+      let details =""
+			 details += `
 			<div class="content page-container editable-form" style="width: 100%;">
   <div class="page-head flex">
     <div class="container">
