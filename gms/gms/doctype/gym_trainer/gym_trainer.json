@@ -145,7 +145,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 13:47:08.909147",
+ "modified": "2023-04-29 16:34:03.464205",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
@@ -185,6 +185,11 @@
    "role": "Gym Trainer",
    "share": 1,
    "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Gym Member",
+   "select": 1
   }
  ],
  "sort_field": "modified",
