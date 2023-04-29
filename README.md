@@ -5,15 +5,14 @@ Gym Management System
 
 
 Required App 
-Frappe bench init
-Erpnext 
-Gms
+. <a href="https://github.com/frappe/frappe.git">Frappe </a>
+. <a href="https://github.com/frappe/erpnext.git">Erpnext </a>
 
 
 Role Listed in Gms
-Gym Admin
-Gym Trainer
-Gym Member
+. Gym Admin
+. Gym Trainer
+. Gym Member
 
 
 #### License
