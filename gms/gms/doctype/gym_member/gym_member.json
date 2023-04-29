@@ -34,7 +34,6 @@
   "relationship",
   "section_break_wdmug",
   "health_matrix",
-  "review",
   "naming_series"
  ],
  "fields": [
@@ -121,12 +120,6 @@
    "fieldtype": "Table",
    "label": "Health Matrix",
    "options": "Customer Metrics"
-  },
-  {
-   "fieldname": "review",
-   "fieldtype": "Table",
-   "label": "Review",
-   "options": "Trainer Plan"
   },
   {
    "fieldname": "address_line1",
@@ -218,7 +211,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 12:28:56.616666",
+ "modified": "2023-04-29 16:51:54.971590",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",

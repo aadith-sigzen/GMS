@@ -30,7 +30,7 @@ function check_user(frm) {
 			if(r.message){
 				frm.add_custom_button('Create user', () => {
 					create_user(frm)
-					frapp.msgprint("User Created Successfully")
+					frappe.msgprint("User Created Successfully")
 				  },)
 			}
 		}
