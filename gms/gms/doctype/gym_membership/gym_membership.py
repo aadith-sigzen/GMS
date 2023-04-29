@@ -18,15 +18,9 @@ class GymMembership(Document):
                 frappe.throw("You are alredy membership")    
         else:	
             frappe.msgprint(('Your changes are saved succesfully  '))
-    # def before_save(self):
-    #     if self.durnation == "1-Month plan":
-    #         self.total_amount = self.rate*1
-    #         self.to_date= frappe.utils.add_days(self.from_date, 30)
-    #     elif self.durnation == "Quarterly":
-    #         self.total_amount = self.rate*3
-    #         self.to_date= frappe.utils.add_days(self.from_date, 180)
-    #     else:
-    #         self.total_amount = self.rate*12
-    #         self.to_date= frappe.utils.add_days(self.from_date, 365)
+        if self.to_date >= today():
+            self.status = "Active"
+        else:
+            self.status = "Deactive"
 
 
