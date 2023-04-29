@@ -37,7 +37,7 @@
    "fieldname": "calories",
    "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Calories"
+   "label": "Burn Calories"
   },
   {
    "fieldname": "date",
@@ -54,7 +54,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-04-25 19:38:43.198124",
+ "modified": "2023-04-29 18:21:21.840614",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Customer Metrics",

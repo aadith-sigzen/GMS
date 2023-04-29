@@ -198,11 +198,23 @@
     "parent": "Gym Member",
     "parentfield": "block_modules",
     "parenttype": "Module Profile"
+   },
+   {
+    "module": "Core",
+    "parent": "Gym Member",
+    "parentfield": "block_modules",
+    "parenttype": "Module Profile"
+   },
+   {
+    "module": "Desk",
+    "parent": "Gym Member",
+    "parentfield": "block_modules",
+    "parenttype": "Module Profile"
    }
   ],
   "docstatus": 0,
   "doctype": "Module Profile",
-  "modified": "2023-04-29 11:39:48.974890",
+  "modified": "2023-04-29 18:19:04.829794",
   "module_profile_name": "Gym Member",
   "name": "Gym Member"
  },
@@ -228,12 +240,6 @@
    },
    {
     "module": "Geo",
-    "parent": "Gym Admin",
-    "parentfield": "block_modules",
-    "parenttype": "Module Profile"
-   },
-   {
-    "module": "Desk",
     "parent": "Gym Admin",
     "parentfield": "block_modules",
     "parenttype": "Module Profile"
@@ -409,7 +415,7 @@
   ],
   "docstatus": 0,
   "doctype": "Module Profile",
-  "modified": "2023-04-29 09:43:51.100724",
+  "modified": "2023-04-29 18:19:14.285753",
   "module_profile_name": "Gym Admin",
   "name": "Gym Admin"
  },
@@ -618,11 +624,17 @@
     "parent": "Gym Trainer",
     "parentfield": "block_modules",
     "parenttype": "Module Profile"
+   },
+   {
+    "module": "Core",
+    "parent": "Gym Trainer",
+    "parentfield": "block_modules",
+    "parenttype": "Module Profile"
    }
   ],
   "docstatus": 0,
   "doctype": "Module Profile",
-  "modified": "2023-04-29 18:02:03.998121",
+  "modified": "2023-04-29 18:19:08.188135",
   "module_profile_name": "Gym Trainer",
   "name": "Gym Trainer"
  }

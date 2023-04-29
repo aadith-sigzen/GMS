@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"kSH_MGKfeC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}},{\"id\":\"eGohCr_bWj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Group Class\",\"col\":3}},{\"id\":\"Uf6eNgN7sd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"odaODR-73y\",\"type\":\"card\",\"data\":{\"card_name\":\"Report Master\",\"col\":4}}]",
+ "content": "[{\"id\":\"As3fkAjkis\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">GMS</span>\",\"col\":12}},{\"id\":\"kSH_MGKfeC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Srevices\",\"col\":3}},{\"id\":\"NeBB51RzL2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"JBsVsXmBdo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Workout Plan\",\"col\":3}},{\"id\":\"8-uk5y3hU1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Membership\",\"col\":3}},{\"id\":\"t7--FaTBJa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainer\",\"col\":3}},{\"id\":\"xztze0qVsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":3}},{\"id\":\"eGohCr_bWj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Group Class\",\"col\":3}},{\"id\":\"Zc1mx9mRVg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trainer Rating\",\"col\":3}},{\"id\":\"Uf6eNgN7sd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"odaODR-73y\",\"type\":\"card\",\"data\":{\"card_name\":\"Report Master\",\"col\":4}}]",
  "creation": "2023-04-24 16:02:31.803180",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -21,7 +21,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
+   "is_query_report": 1,
    "label": "Popular Group Class",
    "link_count": 0,
    "link_to": "Popular Group Class",
@@ -31,7 +31,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
+   "is_query_report": 1,
    "label": "Group Weekly Summary",
    "link_count": 0,
    "link_to": "Group Weekly Summary",
@@ -41,7 +41,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
+   "is_query_report": 1,
    "label": "Revenue Report",
    "link_count": 0,
    "link_to": "Revenue Report",
@@ -51,7 +51,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
+   "is_query_report": 1,
    "label": "Steps Progress Report",
    "link_count": 0,
    "link_to": "Steps Progress Report",
@@ -61,7 +61,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
+   "is_query_report": 1,
    "label": "Calories Progress Report",
    "link_count": 0,
    "link_to": "Calories Progress Report",
@@ -70,7 +70,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-04-29 16:16:11.134000",
+ "modified": "2023-04-29 18:20:13.293387",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "GMS",
@@ -92,6 +92,20 @@
  ],
  "sequence_id": 1.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Trainer Rating",
+   "link_to": "Trainer Rating",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Membership",
+   "link_to": "gym-membership-detai",
+   "type": "Page"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
@@ -125,12 +139,6 @@
    "doc_view": "List",
    "label": "Gym Member",
    "link_to": "Gym Member",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Gym Membership",
-   "link_to": "Gym Membership",
    "type": "DocType"
   }
  ],
