@@ -36,3 +36,6 @@ def create_user(user_name,email_id):
 		user.insert(ignore_permissions = True)
 		frappe.msgprint(_('User created for <b>{0}</b>'.format(user_name)), alert = 1)
 		return True
+	
+
+

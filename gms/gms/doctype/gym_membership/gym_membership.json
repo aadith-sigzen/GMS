@@ -11,17 +11,22 @@
   "naming_series",
   "details_section",
   "gym_member",
-  "from_date",
-  "rate",
-  "column_break_cshba",
   "gym_workout_plan",
-  "to_date",
+  "gym_trainer",
+  "column_break_cshba",
+  "durnation",
+  "rate",
+  "details_tab",
+  "from_date",
+  "days",
   "total_amount",
   "column_break_ulyib",
   "durnation",
   "gym_trainer",
   "amended_from",
-  "status"
+  "status",
+  "to_date",
+  "amended_from"
  ],
  "fields": [
   {
@@ -53,7 +58,7 @@
    "default": "Today",
    "fieldname": "from_date",
    "fieldtype": "Date",
-   "label": "Activation date",
+   "label": "From Date",
    "reqd": 1
   },
   {
@@ -143,7 +148,6 @@
    "write": 1
   },
   {
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,

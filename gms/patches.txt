@@ -1,4 +1,3 @@
 [pre_model_sync]
 
 [post_model_sync]
-gms.gms.doctype.gym_member.patches.compute_age

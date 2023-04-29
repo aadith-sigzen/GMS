@@ -16,7 +16,7 @@
    "fieldname": "trainer_name",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Trainer Name",
+   "label": "Trainer_name",
    "options": "Gym Trainer"
   },
   {
@@ -35,10 +35,10 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-04-29 11:16:50.820591",
+ "modified": "2023-04-24 11:47:58.956064",
  "modified_by": "Administrator",
  "module": "Gms",
- "name": "Trainer Plan",
+ "name": "Trainer Review",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",
