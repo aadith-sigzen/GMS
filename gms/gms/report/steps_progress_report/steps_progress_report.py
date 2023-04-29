@@ -1,6 +1,16 @@
 # Copyright (c) 2023, Aadith and contributors
 # For license information, please see license.txt
 
+# import frappe
+
+
+def execute(filters=None):
+	columns, data = [], []
+	return columns, data
+
+# Copyright (c) 2023, Aadith and contributors
+# For license information, please see license.txt
+
 import frappe
 from datetime import datetime
 
@@ -9,12 +19,10 @@ def execute(filters=None):
 	data = get_data(filters)
 	labels = []
 	values = []
-	
 	for i in data:
 		labels.append(i['date'])
-		values.append(i['calories'])
+		values.append(i['steps'])
 	chart = {
-
         "type": "bar",
         "data": {
 			"labels": labels,
@@ -22,24 +30,16 @@ def execute(filters=None):
 				{"values": values},	
         	],
         },
-	 	"axis_options": {
-            "xAxis": {"title": {"text": "Month"}
-            		},
-            "yAxis": { "title": {"text": "Sales"}
-          			  }
     }
-	}
-	return columns, data, "Calories Progress Report: calories vs date", chart
+	return columns, data, "Steps Progress Report: Steps vs Date", chart
 
 
 
 
 def get_columns():
 	return [
-		"Weight:Float:200",
-		"calories:int:200",
-		"steps:int:200",
-		"date:Date:200"
+		"Steps:int:200",
+		"Date:Date:200"
 		
 	]
 
@@ -57,9 +57,7 @@ def get_data(filters=None):
 			if from_date and to_date:
 				if(from_date<=chi.date and to_date>=chi.date):
 					row={
-					"weight":chi.weight
-					,"calories":chi.calories
-                	,"steps":chi.steps
+					 "steps":chi.steps
 					,"date":chi.date
 					}
 					data.append(row)
