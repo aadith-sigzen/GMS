@@ -15,20 +15,18 @@ class GymMembership(Document):
         if frappe.db.exists('Gym Membership', {"gym_member": self.gym_member}) and self.is_new():
             gym_membership = frappe.get_last_doc('Gym Membership', filters={"gym_member": self.gym_member})
             if str(gym_membership.to_date) >= nowdate():
-                frappe.throw("You are alredy membership")
+                frappe.throw("You are alredy membership")    
         else:	
             frappe.msgprint(('Your changes are saved succesfully  '))
-    def before_save(self):
-        if self.durnation == "Monthly":
-            self.total_amount = self.rate*1
-            self.to_date= frappe.utils.add_days(self.from_date, 30)
-        elif self.durnation == "Quarterly":
-            self.total_amount = self.rate*6
-            self.to_date= frappe.utils.add_days(self.from_date, 180)
-        else:
-            self.total_amount = self.rate*12
-            self.to_date= frappe.utils.add_days(self.from_date, 365)
-        if self.paid == "Paid" and self.payment_date == None:
-            frappe.throw("Not selected payment date")
+    # def before_save(self):
+    #     if self.durnation == "1-Month plan":
+    #         self.total_amount = self.rate*1
+    #         self.to_date= frappe.utils.add_days(self.from_date, 30)
+    #     elif self.durnation == "Quarterly":
+    #         self.total_amount = self.rate*3
+    #         self.to_date= frappe.utils.add_days(self.from_date, 180)
+    #     else:
+    #         self.total_amount = self.rate*12
+    #         self.to_date= frappe.utils.add_days(self.from_date, 365)
 
 
