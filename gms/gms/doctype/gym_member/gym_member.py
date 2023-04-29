@@ -68,7 +68,7 @@ def create_user(customer):
 		'role_profile_name': "Gym Menber",
 		'user_type': "Website User",
 		})
-		user.insert(ignore_permissions = True)
+		user.insert()
 		contact_doc = frappe.get_doc('Contact',{'email_id':customer_doc.email_id})
 		contact_doc.append('links', {
 		'link_doctype': 'User',

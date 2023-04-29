@@ -9,7 +9,7 @@
  "filters": [],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2023-04-29 13:03:23.601631",
+ "modified": "2023-04-29 16:38:50.963192",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Revenue Report",
@@ -19,9 +19,6 @@
  "report_name": "Revenue Report",
  "report_type": "Script Report",
  "roles": [
-  {
-   "role": "Gym Member"
-  },
   {
    "role": "Gym Admin"
   }

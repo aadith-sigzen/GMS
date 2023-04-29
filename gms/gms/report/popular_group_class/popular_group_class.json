@@ -9,7 +9,7 @@
  "filters": [],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2023-04-27 17:20:59.826759",
+ "modified": "2023-04-29 16:39:03.851605",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Popular Group Class",
@@ -21,9 +21,6 @@
  "roles": [
   {
    "role": "System Manager"
-  },
-  {
-   "role": "Gym Member"
   },
   {
    "role": "Gym Admin"
