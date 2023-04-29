@@ -32,10 +32,10 @@
   "phone_number",
   "column_break_bazju",
   "relationship",
-  "naming_series",
   "section_break_wdmug",
   "health_matrix",
-  "review"
+  "review",
+  "naming_series"
  ],
  "fields": [
   {
@@ -203,7 +203,8 @@
   {
    "fieldname": "age",
    "fieldtype": "Int",
-   "label": "Age"
+   "label": "Age",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_wdmug",
@@ -217,7 +218,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 10:14:38.416924",
+ "modified": "2023-04-29 12:28:56.616666",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",

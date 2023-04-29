@@ -44,7 +44,8 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Age"
+   "label": "Age",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_eqqzp",
@@ -126,7 +127,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-27 19:27:51.244112",
+ "modified": "2023-04-29 12:30:30.520912",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
