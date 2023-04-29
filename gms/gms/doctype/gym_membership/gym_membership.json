@@ -21,9 +21,23 @@
   "durnation",
   "gym_trainer",
   "amended_from",
-  "status"
+  "status",
+  "to_date",
+  "amended_from"
  ],
  "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "naming_series",
+   "options": "GYM-.{gym_member}.-.{gym_subscription}.-"
+  },
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
   {
    "fieldname": "gym_member",
    "fieldtype": "Link",
@@ -33,39 +47,10 @@
    "reqd": 1
   },
   {
-   "fieldname": "durnation",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Durnation",
-   "options": "\n1-Month plan\n3-Month plan\n6-Month plan\n12-Month plan",
-   "reqd": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Gym Membership",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
-   "default": "Today",
    "fieldname": "from_date",
    "fieldtype": "Date",
    "label": "Activation date",
    "reqd": 1
-  },
-  {
-   "fieldname": "to_date",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "To Date",
-   "read_only": 1
-  },
-  {
-   "fieldname": "column_break_cshba",
-   "fieldtype": "Column Break"
   },
   {
    "fetch_from": "gym_workout_plan.rate",
@@ -77,8 +62,23 @@
    "read_only": 1
   },
   {
-   "fieldname": "column_break_ulyib",
+   "fieldname": "column_break_cshba",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gym_workout_plan",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gym Workout Plan",
+   "options": "Gym Workout Plan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date",
+   "read_only": 1
   },
   {
    "default": "0",
@@ -88,18 +88,15 @@
    "read_only": 1
   },
   {
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "hidden": 1,
-   "label": "naming_series",
-   "options": "GYM-.{gym_member}.-.{gym_subscription}.-"
+   "fieldname": "column_break_ulyib",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "gym_workout_plan",
-   "fieldtype": "Link",
+   "fieldname": "durnation",
+   "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Gym Workout Plan",
-   "options": "Gym Workout Plan",
+   "label": "Durnation",
+   "options": "\n1-Month plan\n3-Month plan\n6-Month plan\n12-Month plan",
    "reqd": 1
   },
   {
@@ -143,7 +140,6 @@
    "write": 1
   },
   {
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,

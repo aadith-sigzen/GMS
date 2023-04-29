@@ -28,9 +28,10 @@ function check_user(frm) {
 		},
 		callback:function(r){
 			if(r.message){
-				frm.add_custom_button('User', () => {
+				frm.add_custom_button('Create User', () => {
 					create_user(frm)
-				  },(' Create '))
+					frappe.msgprint("User created successfully")
+				  },)
 			}
 		}
 	})

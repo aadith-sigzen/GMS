@@ -10,16 +10,19 @@
   "first_name",
   "gender",
   "age",
+  "trainer_category",
   "column_break_eqqzp",
   "last_name",
   "full_name",
   "dob",
-  "details_tab",
+  "rating",
+  "section_break_cawxb",
   "address",
   "column_break_swvzp",
   "email",
+  "column_break_nynzs",
   "phone",
-  "emergency_contact_information_tab",
+  "emergency_details_section",
   "contact_name",
   "phone_number",
   "column_break_bazju",
@@ -54,6 +57,7 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Full Name",
    "read_only": 1,
    "unique": 1
@@ -64,18 +68,13 @@
    "label": "Last Name"
   },
   {
-   "fieldname": "details_tab",
-   "fieldtype": "Tab Break",
-   "label": "Details"
-  },
-  {
    "fieldname": "address",
    "fieldtype": "Small Text",
    "label": "Address"
   },
   {
    "fieldname": "column_break_swvzp",
-   "fieldtype": "Column Break"
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "email",
@@ -92,11 +91,6 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Phone"
-  },
-  {
-   "fieldname": "emergency_contact_information_tab",
-   "fieldtype": "Tab Break",
-   "label": "Emergency Contact Information"
   },
   {
    "fieldname": "contact_name",
@@ -123,11 +117,35 @@
    "fieldname": "dob",
    "fieldtype": "Date",
    "label": "DOB"
+  },
+  {
+   "fieldname": "column_break_nynzs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "emergency_details_section",
+   "fieldtype": "Section Break",
+   "label": "Emergency Details"
+  },
+  {
+   "fieldname": "section_break_cawxb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "trainer_category",
+   "fieldtype": "Select",
+   "label": "Trainer Category",
+   "options": "Gym\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 12:30:30.520912",
+ "modified": "2023-04-29 13:47:08.909147",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",
