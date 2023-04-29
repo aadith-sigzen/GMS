@@ -5,8 +5,8 @@ Gym Management System
 
 
 Required App  <br>
-. <a href="https://github.com/frappe/frappe.git">Frappe </a><br>
-. <a href="https://github.com/Sigzen-Team/frappe.git">Erpnext </a>
+. <a href="https://github.com/Sigzen-Team/frappe.git">Frappe </a><br>
+. <a href="https://github.com/Sigzen-Team/erpnext.git">Erpnext </a>
 
 
 Role Listed in Gms <br>
