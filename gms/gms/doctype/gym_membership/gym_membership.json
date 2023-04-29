@@ -9,10 +9,10 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
+  "details_section",
   "gym_member",
   "from_date",
   "rate",
-  "paid",
   "column_break_cshba",
   "gym_workout_plan",
   "to_date",
@@ -20,8 +20,8 @@
   "column_break_ulyib",
   "durnation",
   "gym_trainer",
-  "payment_date",
-  "amended_from"
+  "amended_from",
+  "status"
  ],
  "fields": [
   {
@@ -37,7 +37,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Durnation",
-   "options": "\nMonthly\nQuarterly\nYearly",
+   "options": "\n1-Month plan\n3-Month plan\n6-Month plan\n12-Month plan",
    "reqd": 1
   },
   {
@@ -70,6 +70,7 @@
    "fetch_from": "gym_workout_plan.rate",
    "fieldname": "rate",
    "fieldtype": "Currency",
+   "hidden": 1,
    "in_list_view": 1,
    "label": "Rate",
    "read_only": 1
@@ -79,16 +80,11 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "0",
    "fieldname": "total_amount",
    "fieldtype": "Currency",
    "label": "Total Amount",
    "read_only": 1
-  },
-  {
-   "fieldname": "paid",
-   "fieldtype": "Select",
-   "label": "Paid ",
-   "options": "Paid\nUnpaid"
   },
   {
    "fieldname": "naming_series",
@@ -112,15 +108,20 @@
    "options": "Gym Trainer"
   },
   {
-   "fieldname": "payment_date",
-   "fieldtype": "Date",
-   "label": "Payment Date"
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nDeactive"
+  },
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2023-04-27 15:46:57.417810",
+ "modified": "2023-04-29 11:10:41.371155",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Membership",

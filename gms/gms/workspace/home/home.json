@@ -8,7 +8,7 @@
  "hide_custom": 0,
  "icon": "getting-started",
  "idx": 0,
- "is_hidden": 0,
+ "is_hidden": 1,
  "label": "Home",
  "links": [
   {
@@ -199,7 +199,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-04-28 15:03:05.892561",
+ "modified": "2023-04-29 11:14:44.532228",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Home",
