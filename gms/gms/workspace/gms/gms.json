@@ -22,16 +22,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Fitness track",
-   "link_count": 0,
-   "link_to": "Fitness track",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Popular Group Class",
    "link_count": 0,
    "link_to": "Popular Group Class",
@@ -50,7 +40,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-04-29 15:17:26.072776",
+ "modified": "2023-04-29 13:00:00.317926",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "GMS",
@@ -82,9 +72,12 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Fitness track",
-   "link_to": "Fitness track",
-   "type": "Report"
+   "label": "Website Slideshow",
+   "link_to": "Website Slideshow",
+   "doc_view": "List",
+   "label": "Gym Srevices",
+   "link_to": "Gym Services",
+   "type": "DocType"
   },
   {
    "color": "Grey",
