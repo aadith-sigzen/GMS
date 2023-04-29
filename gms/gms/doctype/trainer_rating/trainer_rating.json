@@ -42,7 +42,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 14:15:11.037962",
+ "modified": "2023-04-29 19:48:05.340767",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Trainer Rating",
@@ -80,6 +80,7 @@
    "read": 1,
    "report": 1,
    "role": "Gym Trainer",
+   "select": 1,
    "share": 1
   }
  ],
