@@ -40,7 +40,8 @@
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
-   "label": "First Name"
+   "label": "First Name",
+   "reqd": 1
   },
   {
    "fieldname": "gender",
@@ -48,12 +49,14 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Gender",
-   "options": "Gender"
+   "options": "Gender",
+   "reqd": 1
   },
   {
    "fieldname": "date_of_birth",
    "fieldtype": "Date",
-   "label": "Date of Birth"
+   "label": "Date of Birth",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_eqqzp",
@@ -94,21 +97,24 @@
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Last Name"
+   "label": "Last Name",
+   "reqd": 1
   },
   {
    "fieldname": "wiegth",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Wiegth"
+   "label": "Wiegth",
+   "reqd": 1
   },
   {
    "fieldname": "height",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Height (cm)"
+   "label": "Height (cm)",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_r4p6p",
@@ -124,7 +130,8 @@
   {
    "fieldname": "address_line1",
    "fieldtype": "Data",
-   "label": "Address Line1"
+   "label": "Address Line1",
+   "reqd": 1
   },
   {
    "fieldname": "address_line2",
@@ -138,18 +145,21 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
-   "label": "City/Town"
+   "label": "City/Town",
+   "reqd": 1
   },
   {
    "fieldname": "state",
    "fieldtype": "Data",
-   "label": "State/Province"
+   "label": "State/Province",
+   "reqd": 1
   },
   {
    "fieldname": "country",
    "fieldtype": "Link",
    "label": "Country",
-   "options": "Country"
+   "options": "Country",
+   "reqd": 1
   },
   {
    "fieldname": "email",
@@ -157,7 +167,8 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Email",
-   "options": "Email"
+   "options": "Email",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_mzish",
@@ -170,18 +181,21 @@
    "fieldtype": "Phone",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Phone"
+   "label": "Phone",
+   "reqd": 1
   },
   {
    "fieldname": "contact_name",
    "fieldtype": "Data",
-   "label": "Contact Name"
+   "label": "Contact Name",
+   "reqd": 1
   },
   {
    "default": "+91-",
    "fieldname": "phone_number",
    "fieldtype": "Phone",
-   "label": "Phone Number"
+   "label": "Phone Number",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_bazju",
@@ -191,13 +205,15 @@
    "fieldname": "relationship",
    "fieldtype": "Select",
    "label": "Relationship",
-   "options": "Spouse\nSibling\nParent\nFriend"
+   "options": "\nSpouse\nSibling\nParent\nFriend",
+   "reqd": 1
   },
   {
    "fieldname": "age",
    "fieldtype": "Int",
    "label": "Age",
-   "read_only": 1
+   "read_only": 1,
+   "reqd": 1
   },
   {
    "fieldname": "section_break_wdmug",
@@ -211,7 +227,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 19:47:42.783379",
+ "modified": "2023-04-30 18:46:50.920713",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Member",

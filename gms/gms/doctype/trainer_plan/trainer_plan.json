@@ -17,25 +17,28 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Trainer Name",
-   "options": "Gym Trainer"
+   "options": "Gym Trainer",
+   "reqd": 1
   },
   {
    "fieldname": "rating",
    "fieldtype": "Rating",
    "in_list_view": 1,
-   "label": "Rating"
+   "label": "Rating",
+   "reqd": 1
   },
   {
    "fieldname": "review",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Review"
+   "label": "Review",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-04-29 11:16:50.820591",
+ "modified": "2023-04-30 18:48:40.610478",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Trainer Plan",

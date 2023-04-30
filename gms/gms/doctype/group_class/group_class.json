@@ -10,6 +10,7 @@
  "field_order": [
   "member",
   "class_type",
+  "column_break_bcb58",
   "select_day",
   "class_time",
   "gym_trainer"
@@ -18,38 +19,51 @@
   {
    "fieldname": "member",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Full Name",
-   "options": "Gym Member"
+   "options": "Gym Member",
+   "reqd": 1
   },
   {
    "fieldname": "class_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Class Type",
-   "options": "Dance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
+   "options": "\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class",
+   "reqd": 1
   },
   {
    "fieldname": "select_day",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Select Day",
-   "options": "Saturday\nSunday"
+   "options": "\nSaturday\nSunday",
+   "reqd": 1
   },
   {
    "fieldname": "class_time",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Class Time",
-   "options": "2 PM\n4 PM\n6 PM"
+   "options": "\n2 PM\n4 PM\n6 PM",
+   "reqd": 1
   },
   {
    "fieldname": "gym_trainer",
    "fieldtype": "Link",
    "in_filter": 1,
    "label": "Gym Trainer",
-   "options": "Gym Trainer"
+   "options": "Gym Trainer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bcb58",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-27 17:55:08.868870",
+ "modified": "2023-04-30 18:49:58.827401",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Group Class",

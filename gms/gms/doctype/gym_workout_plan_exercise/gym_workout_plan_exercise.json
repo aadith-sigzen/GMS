@@ -16,32 +16,36 @@
    "fieldname": "day",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Day"
+   "label": "Day",
+   "reqd": 1
   },
   {
    "fieldname": "sets",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Sets"
+   "label": "Sets",
+   "reqd": 1
   },
   {
    "fieldname": "reps",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Reps"
+   "label": "Reps",
+   "reqd": 1
   },
   {
    "fieldname": "exercise_type",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Exercise Type",
-   "options": "Exercise Type"
+   "options": "Exercise Type",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-04-28 15:40:59.958345",
+ "modified": "2023-04-30 18:48:57.222263",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Workout Plan Exercise",

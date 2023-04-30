@@ -31,7 +31,8 @@
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
-   "label": "First Name"
+   "label": "First Name",
+   "reqd": 1
   },
   {
    "fieldname": "gender",
@@ -39,7 +40,8 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Gender",
-   "options": "Gender"
+   "options": "Gender",
+   "reqd": 1
   },
   {
    "fieldname": "age",
@@ -64,12 +66,14 @@
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Last Name"
+   "label": "Last Name",
+   "reqd": 1
   },
   {
    "fieldname": "address",
    "fieldtype": "Small Text",
-   "label": "Address"
+   "label": "Address",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_swvzp",
@@ -81,7 +85,8 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Email",
-   "options": "Email"
+   "options": "Email",
+   "reqd": 1
   },
   {
    "default": "+91-",
@@ -89,18 +94,21 @@
    "fieldtype": "Phone",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Phone"
+   "label": "Phone",
+   "reqd": 1
   },
   {
    "fieldname": "contact_name",
    "fieldtype": "Data",
-   "label": "Contact Name"
+   "label": "Contact Name",
+   "reqd": 1
   },
   {
    "default": "+91-",
    "fieldname": "phone_number",
    "fieldtype": "Phone",
-   "label": "Phone Number"
+   "label": "Phone Number",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_bazju",
@@ -110,12 +118,14 @@
    "fieldname": "relationship",
    "fieldtype": "Select",
    "label": "Relationship",
-   "options": "Spouse\nSibling\nParent\nFriend"
+   "options": "\nSpouse\nSibling\nParent\nFriend",
+   "reqd": 1
   },
   {
    "fieldname": "dob",
    "fieldtype": "Date",
-   "label": "DOB"
+   "label": "DOB",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_nynzs",
@@ -134,12 +144,13 @@
    "fieldname": "trainer_category",
    "fieldtype": "Select",
    "label": "Trainer Category",
-   "options": "Gym\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class"
+   "options": "\nGym\nDance\nBoxing\nYoga\nPilates\nGarba\nZumba Class",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-29 17:14:46.506360",
+ "modified": "2023-04-30 18:47:59.884797",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Trainer",

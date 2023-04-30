@@ -19,31 +19,36 @@
    "fieldname": "weight",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Weight"
+   "label": "Weight",
+   "reqd": 1
   },
   {
    "fieldname": "steps",
    "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Steps"
+   "label": "Steps",
+   "reqd": 1
   },
   {
    "fieldname": "workout_time",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Workout duration (in hrs)"
+   "label": "Workout duration (in hrs)",
+   "reqd": 1
   },
   {
    "fieldname": "calories",
    "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Burn Calories"
+   "label": "Burn Calories",
+   "reqd": 1
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "date"
+   "label": "date",
+   "reqd": 1
   },
   {
    "fieldname": "today_date",
@@ -54,7 +59,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-04-29 18:21:21.840614",
+ "modified": "2023-04-30 18:48:26.482810",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Customer Metrics",

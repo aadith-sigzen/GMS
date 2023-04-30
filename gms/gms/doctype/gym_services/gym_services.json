@@ -24,14 +24,18 @@
   {
    "fieldname": "gym_member",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Gym Member",
-   "options": "Gym Member"
+   "options": "Gym Member",
+   "reqd": 1
   },
   {
    "fieldname": "gym_trainer",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Gym Trainer",
-   "options": "Gym Trainer"
+   "options": "Gym Trainer",
+   "reqd": 1
   },
   {
    "default": "0",
@@ -42,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-25 17:39:38.481322",
+ "modified": "2023-04-30 18:50:15.844431",
  "modified_by": "Administrator",
  "module": "Gms",
  "name": "Gym Services",
